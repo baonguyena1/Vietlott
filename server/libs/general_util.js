@@ -39,7 +39,7 @@ var general_util = {
         var response = {};
         response[constant.status] = true;
         response[constant.message] = message;
-        response[constant.server_time] = new Date().toISOString();
+        response[constant.server_time] = new Date().getTime()
         return response;
     },
     /**
@@ -56,7 +56,7 @@ var general_util = {
         error[constant.message] = this.generateMessageByKey(key);
         response[constant.error] = error;
 
-        response[constant.server_time] = new Date().toISOString()
+        response[constant.server_time] = new Date().getTime()
         return response;
     },
     /**
@@ -72,12 +72,15 @@ var general_util = {
                 keys.forEach(function(element) {
                     errorCode = errorCode[element];
                 });
-                return errorCode;
+                if (errorCode) {
+                    return errorCode;
+                }
+                return 404;
             } catch (error) {
-                return '';
+                return 404;
             }
         }
-        return '';
+        return 404;
     },
     /**
      * get error message by key

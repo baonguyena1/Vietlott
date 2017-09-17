@@ -6,10 +6,6 @@ const constant = require('../config/constant');
 const general_util = require('../libs/general_util');
 
 router.get('/', function(req, res) {
-    var datas = {
-        'username': 'bao',
-        'age': 25
-    };
     general_util.response('successfuly', {}, false, res);
 });
 

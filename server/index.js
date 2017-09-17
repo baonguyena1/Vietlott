@@ -6,6 +6,7 @@ const body_parser = require('body-parser');
 
 const constant = require('./config/constant');
 const vietlottController = require('./controllers/vietlottController');
+const cron = require('./cronjob/cronjob');
 
 app.use(body_parser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
@@ -25,5 +26,7 @@ app.listen(constant.listen_port, function() {
 app.get('/', function(req, res) {
     res.send('Welcome to Vietlott Application!');
 });
+
+cron.start();
 
 app.use('/vietlott/', vietlottController);
