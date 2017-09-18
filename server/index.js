@@ -3,10 +3,13 @@ const app = express();
 const mongoose = require('mongoose');
 const path = require('path');
 const body_parser = require('body-parser');
+const mongoose = require('mongoose');
 
 const constant = require('./config/constant');
 const vietlottController = require('./controllers/vietlottController');
 const cron = require('./cronjob/cronjob');
+const database = require('./config/database');
+const utils = require('./libs/database_util');
 
 app.use(body_parser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
@@ -17,7 +20,9 @@ app.use(function (req, res, done) {
     res.header('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE');
     res.header("Access-Control-Allow-Credentials", "true");
     return done();
-  });
+});
+
+mongoose = utils.connectDatabase(mongoose, database.mongodb);
 
 app.listen(constant.listen_port, function() {
     console.log('App listening at port ' + constant.listen_port);
