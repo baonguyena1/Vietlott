@@ -6,6 +6,7 @@ var db_util = {
         dbPath += config.HOST + ((config.PORT.length > 0) ? ":" : "");
         dbPath += config.PORT + "/";
         dbPath += config.DATABASE;
+        console.log('dbPath = ' + dbPath);
         return mongoose.connect(dbPath);
     }
 };

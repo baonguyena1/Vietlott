@@ -1,9 +1,8 @@
 const express = require('express');
 const app = express();
-const mongoose = require('mongoose');
+var mongoose = require('mongoose');
 const path = require('path');
 const body_parser = require('body-parser');
-const mongoose = require('mongoose');
 
 const constant = require('./config/constant');
 const vietlottController = require('./controllers/vietlottController');
