@@ -1,14 +1,14 @@
 # Vietlott
 
 # Dump and Restore Database
-    Dump:
+## Dump database
     mongodump --db=Vietlott --dumpDbUsersAndRoles -u vietlott -p 12345 --out=./
 
-    Create user:
-    ```
+
+## Create new user
     db.createUser(
     {
-        user: "vietlott",
+        user: "abc",
         pwd: "123456",
         roles: [   { role: "clusterAdmin", db: "admin" },
                     { role: "readAnyDatabase", db: "admin" },
@@ -16,4 +16,3 @@
                     "readWrite", 
                     "dbAdmin" ]
     })
-```
