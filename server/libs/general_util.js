@@ -98,6 +98,9 @@ var general_util = {
             }
         }
         return null;
+    },
+    isNull: function (value) {
+        return typeof (value) === 'undefined' || value == null || value.length <= 0;
     }
 };
 

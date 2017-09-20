@@ -1,5 +1,6 @@
 const cron = require('cron');
 const htmlparser = require('htmlparser2');
+const html = require('http');
 
 var cronJob = {
     getVietlott: function() {
@@ -18,9 +19,5 @@ var cronJob = {
         this.getVietlott().start();
     }
 };
-
-var parser = new htmlparser.Parser({
-    
-});
 
 module.exports = cronJob;
