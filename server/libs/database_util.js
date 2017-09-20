@@ -1,3 +1,5 @@
+const Logger = require('../log/log');
+
 var db_util = {
     connectDatabase: function (mongoose, config) {
         var dbPath;
@@ -6,7 +8,8 @@ var db_util = {
         dbPath += config.HOST + ((config.PORT.length > 0) ? ":" : "");
         dbPath += config.PORT + "/";
         dbPath += config.DATABASE;
-        console.log('dbPath = ' + dbPath);
+        // dbPath += '?authSource=admin';
+        Logger.logInfo('dbPath = ' + dbPath);
         return mongoose.connect(dbPath);
     }
 };

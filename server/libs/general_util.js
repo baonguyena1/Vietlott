@@ -24,6 +24,7 @@ var general_util = {
         } else {
             response[constant.results] = {};
         }
+        response[constant.server_time] = new Date().toISOString();
         res.json(response);
     },
     /**
@@ -39,7 +40,6 @@ var general_util = {
         var response = {};
         response[constant.status] = true;
         response[constant.message] = message;
-        response[constant.server_time] = new Date().getTime()
         return response;
     },
     /**
@@ -55,8 +55,6 @@ var general_util = {
         error[constant.error_code] = this.generateErrorCodeByKey(key);
         error[constant.message] = this.generateMessageByKey(key);
         response[constant.error] = error;
-
-        response[constant.server_time] = new Date().getTime()
         return response;
     },
     /**

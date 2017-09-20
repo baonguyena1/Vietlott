@@ -5,7 +5,8 @@ var constant = {
     'error_code': 'error_code',
     'message': 'message',
     'results': 'results',
-    'server_time': 'server_time'
+    'server_time': 'server_time',
+    'enable_log': true
 };
 
 module.exports = constant;

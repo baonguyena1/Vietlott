@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const body_parser = require('body-parser');
 const async = require('async');
+
+const Logger = require('../log/log');
 const constant = require('../config/constant');
 const general_util = require('../libs/general_util');
 
@@ -12,8 +14,8 @@ router.get('/', function(req, res) {
     test.name = 'bao';
     test.age = 25;
     test.save(function(error, object) {
-        console.log(error);
-        console.log(success.toJSON());
+        Logger.logError(error);
+        Logger.logInfo(object);
     });
     general_util.response('successfuly', {}, false, res);
 });

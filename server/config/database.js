@@ -1,7 +1,7 @@
 var database = {
     mongodb: {
         'USER': 'vietlott',
-        'PASS': '12345',
+        'PASS': '123456',
         'HOST': 'localhost',
         'PORT': '',
         'DATABASE': 'Vietlott'
