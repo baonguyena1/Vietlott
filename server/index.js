@@ -6,10 +6,12 @@ const body_parser = require('body-parser');
 
 const Logger = require('./log/log');
 const constant = require('./config/constant');
-const vietlottController = require('./controllers/vietlottController');
 const cron = require('./cronjob/cronjob');
 const database = require('./config/database');
 const utils = require('./libs/database_util');
+
+const vietlottController = require('./controllers/vietlottController');
+const rewardController = require('./controllers/rewardController');
 
 app.use(body_parser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
@@ -38,3 +40,4 @@ app.get('/', function(req, res) {
 cron.start();
 
 app.use(API_V1 + '/vietlott/', vietlottController);
+app.use(API_V1 + '/reward/', rewardController);
