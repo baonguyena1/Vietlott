@@ -19,12 +19,17 @@ const Vietlott = require('../models/vietlott');
  * Get lasted vietlott
  */
 router.get('/', (req, res) => {
-    const test = new Test();
-    test.name = 'bao';
-    test.age = 'dsdsd';
-    test.save((error, object) => {
-        return general_util.response(error, error_key.not_found, object, res);
-    });
+    Logger.logInfo('[BEGIN] Get lasted vietlott');
+    getLastedVietlott()
+    .then(function(vietlott) {
+        general_util.response('', null, vietlott, res);
+    })
+    .catch(function(error) {
+        general_util.response(error, constant.not_found, null, res);
+    })
+    .then(function() {
+        Logger.logInfo('[END] Get lasted vietlott');
+    })
 });
 
 /**
@@ -57,7 +62,7 @@ router.post('/', function(req, res) {
         general_util.response('', null, vietlott, res);
     })
     .catch(function(error) {
-        general_util.response('failed', error_key.not_found, {}, res);
+        general_util.response('failed', error_key.not_found, null, res);
     })
     .then(() => {
         Logger.logDebug('[END] Add new vietlott');
@@ -114,5 +119,27 @@ function addVietlott(first_prize, second_prize, third_prize, jackpot, reward_id,
         });
     });
 };
+
+/**
+ * Get lasted vietlott
+ */
+function getLastedVietlott() {
+    return new Promise(function(resolve, reject) {
+
+        Vietlott
+        .findOne()
+        .populate('first_prize second_prize third_prize jackpot')
+        .sort({'bonus_day': 1})
+        .exec(function(error, vietlott) {
+            if (error) {
+                reject(error);
+            } else {
+                resolve(vietlott);
+            }
+        });
+        
+    });
+    
+}
 
 module.exports = router;

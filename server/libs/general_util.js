@@ -15,7 +15,7 @@ var general_util = {
             response[constant.message] = this.generateErrorMessage(message);
         }
         response[constant.error_code] = error_code;
-        response[constant.results] = this.isNull(data) ? {} : data;
+        response[constant.results] = (this.isNull(data) ? {} : data);
         response[constant.server_time] = new Date().toISOString();
         res.json(response);
     },

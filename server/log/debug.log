@@ -3618,3 +3618,349 @@ Friday:9/29/2017|22:32:18:207 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb
 Friday:9/29/2017|22:32:18:258 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
 Friday:9/29/2017|22:32:36:16 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
 Friday:9/29/2017|22:32:36:62 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:41:29:682 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:41:29:738 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:41:42:329 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:41:42:422 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:43:49:721 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:43:49:819 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:44:56:173 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:45:50:247 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:45:50:330 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:45:53:380 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:45:53:464 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:47:22:442 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:47:22:487 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:47:26:492 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:47:26:579 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:48:28:230 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:48:28:298 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:48:30:445 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:48:30:526 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:48:35:633 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:48:35:667 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:49:20:752 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:49:20:799 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:49:28:816 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:49:28:884 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:49:31:386 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:49:31:468 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:49:32:563 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:49:32:610 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:49:33:635 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:49:33:662 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:49:54:379 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:49:54:487 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:49:56:291 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:49:56:372 - [INFO]   - [VIETLOTT][message]: null
+Friday:9/29/2017|22:49:56:372 - [INFO]   - [VIETLOTT][message]: { _id: 59ce5b3d49a19a0970195c03,
+  jackpot: 
+   { _id: 59ce5b3d49a19a0970195c02,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '112.128.144.500',
+     quantum: 1,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce5b3d49a19a0970195c01,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '30.000',
+     quantum: 69922,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce5b3d49a19a0970195c00,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.304Z,
+     created_at: 2017-09-29T14:39:57.304Z,
+     prize_value: '300.000',
+     quantum: 3964,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce5b3d49a19a0970195bff,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.298Z,
+     created_at: 2017-09-29T14:39:57.297Z,
+     prize_value: '10.000.000',
+     quantum: 85,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T14:39:57.378Z,
+  created_at: 2017-09-29T14:39:57.378Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|22:49:56:388 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:50:34:127 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:50:34:181 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:50:42:583 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:50:42:628 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:50:46:873 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:50:46:957 - [INFO]   - [VIETLOTT][message]: null
+Friday:9/29/2017|22:50:46:957 - [INFO]   - [VIETLOTT][message]: { _id: 59ce5b3d49a19a0970195c03,
+  jackpot: 
+   { _id: 59ce5b3d49a19a0970195c02,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '112.128.144.500',
+     quantum: 1,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce5b3d49a19a0970195c01,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '30.000',
+     quantum: 69922,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce5b3d49a19a0970195c00,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.304Z,
+     created_at: 2017-09-29T14:39:57.304Z,
+     prize_value: '300.000',
+     quantum: 3964,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce5b3d49a19a0970195bff,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.298Z,
+     created_at: 2017-09-29T14:39:57.297Z,
+     prize_value: '10.000.000',
+     quantum: 85,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T14:39:57.378Z,
+  created_at: 2017-09-29T14:39:57.378Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|22:50:46:967 - [INFO]   - [VIETLOTT][message]: >>>>{ _id: 59ce5b3d49a19a0970195c03,
+  jackpot: 
+   { _id: 59ce5b3d49a19a0970195c02,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '112.128.144.500',
+     quantum: 1,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce5b3d49a19a0970195c01,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '30.000',
+     quantum: 69922,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce5b3d49a19a0970195c00,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.304Z,
+     created_at: 2017-09-29T14:39:57.304Z,
+     prize_value: '300.000',
+     quantum: 3964,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce5b3d49a19a0970195bff,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.298Z,
+     created_at: 2017-09-29T14:39:57.297Z,
+     prize_value: '10.000.000',
+     quantum: 85,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T14:39:57.378Z,
+  created_at: 2017-09-29T14:39:57.378Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|22:50:46:975 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:52:2:907 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:52:2:962 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:52:9:66 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:52:9:144 - [INFO]   - [VIETLOTT][message]: null
+Friday:9/29/2017|22:52:9:144 - [INFO]   - [VIETLOTT][message]: { _id: 59ce5b3d49a19a0970195c03,
+  jackpot: 
+   { _id: 59ce5b3d49a19a0970195c02,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '112.128.144.500',
+     quantum: 1,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce5b3d49a19a0970195c01,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '30.000',
+     quantum: 69922,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce5b3d49a19a0970195c00,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.304Z,
+     created_at: 2017-09-29T14:39:57.304Z,
+     prize_value: '300.000',
+     quantum: 3964,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce5b3d49a19a0970195bff,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.298Z,
+     created_at: 2017-09-29T14:39:57.297Z,
+     prize_value: '10.000.000',
+     quantum: 85,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T14:39:57.378Z,
+  created_at: 2017-09-29T14:39:57.378Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|22:52:9:151 - [INFO]   - [VIETLOTT][message]: >>>>{ _id: 59ce5b3d49a19a0970195c03,
+  jackpot: 
+   { _id: 59ce5b3d49a19a0970195c02,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '112.128.144.500',
+     quantum: 1,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce5b3d49a19a0970195c01,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '30.000',
+     quantum: 69922,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce5b3d49a19a0970195c00,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.304Z,
+     created_at: 2017-09-29T14:39:57.304Z,
+     prize_value: '300.000',
+     quantum: 3964,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce5b3d49a19a0970195bff,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.298Z,
+     created_at: 2017-09-29T14:39:57.297Z,
+     prize_value: '10.000.000',
+     quantum: 85,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T14:39:57.378Z,
+  created_at: 2017-09-29T14:39:57.378Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|22:52:9:157 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:53:13:716 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:53:13:814 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:53:25:920 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:53:25:967 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:53:47:159 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:53:47:237 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:54:50:166 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:54:50:210 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:54:53:431 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:54:53:501 - [INFO]   - [VIETLOTT][message]: { _id: 59ce5b3d49a19a0970195c03,
+  jackpot: 
+   { _id: 59ce5b3d49a19a0970195c02,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '112.128.144.500',
+     quantum: 1,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce5b3d49a19a0970195c01,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '30.000',
+     quantum: 69922,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce5b3d49a19a0970195c00,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.304Z,
+     created_at: 2017-09-29T14:39:57.304Z,
+     prize_value: '300.000',
+     quantum: 3964,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce5b3d49a19a0970195bff,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.298Z,
+     created_at: 2017-09-29T14:39:57.297Z,
+     prize_value: '10.000.000',
+     quantum: 85,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T14:39:57.378Z,
+  created_at: 2017-09-29T14:39:57.378Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|22:54:53:515 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:57:44:629 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:57:44:676 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:57:59:232 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:57:59:279 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:58:5:116 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|22:58:5:200 - [INFO]   - [VIETLOTT][message]: { _id: 59ce5b3d49a19a0970195c03,
+  jackpot: 
+   { _id: 59ce5b3d49a19a0970195c02,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '112.128.144.500',
+     quantum: 1,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce5b3d49a19a0970195c01,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.305Z,
+     created_at: 2017-09-29T14:39:57.305Z,
+     prize_value: '30.000',
+     quantum: 69922,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce5b3d49a19a0970195c00,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.304Z,
+     created_at: 2017-09-29T14:39:57.304Z,
+     prize_value: '300.000',
+     quantum: 3964,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce5b3d49a19a0970195bff,
+     __v: 0,
+     updated_at: 2017-09-29T14:39:57.298Z,
+     created_at: 2017-09-29T14:39:57.297Z,
+     prize_value: '10.000.000',
+     quantum: 85,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T14:39:57.378Z,
+  created_at: 2017-09-29T14:39:57.378Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|22:58:5:214 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|22:58:41:829 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:58:41:877 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:58:50:242 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:58:50:293 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:59:33:705 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:59:33:757 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:59:47:30 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:59:47:75 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|22:59:49:160 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|22:59:49:206 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|23:0:5:172 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|23:0:5:254 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Friday:9/29/2017|23:0:38:599 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|23:0:38:649 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|23:1:18:512 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Friday:9/29/2017|23:1:18:604 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
