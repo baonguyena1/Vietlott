@@ -2,6 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 var vietlottSchema = new Schema({
+    numbers: {
+        type: Array,
+        default: []
+    },
     first_prize: {
         type: Schema.Types.ObjectId,
         ref: 'Reward'

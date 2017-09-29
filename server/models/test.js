@@ -3,8 +3,8 @@ const Schema = mongoose.Schema;
 
 var TestSchema = new Schema({
     name: {
-        type: String,
-        default: ''
+        type: Number,
+        default: 0
     },
     age: {
         type: Number,
