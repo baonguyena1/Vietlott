@@ -13,7 +13,8 @@ var rewardSchema = new Schema({
         default: 0
     },
     prize_value:{
-        type: Number,
+        type: String,
+        default: ''
     },
     created_at: {
         type: Date,

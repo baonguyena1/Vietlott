@@ -10,7 +10,7 @@ var vietlottSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'Reward'
     },
-    second_prize: {
+    third_prize: {
         type: Schema.Types.ObjectId,
         ref: 'Reward'
     },

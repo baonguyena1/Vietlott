@@ -14,6 +14,9 @@ const utils = require('./libs/database_util');
 app.use(body_parser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
+// App API version
+const API_V1 = '/api/v1';
+
 app.use(function (req, res, done) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With, access_token");
@@ -34,4 +37,4 @@ app.get('/', function(req, res) {
 
 cron.start();
 
-app.use('/vietlott/', vietlottController);
+app.use(API_V1 + '/vietlott/', vietlottController);

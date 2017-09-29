@@ -2934,3 +2934,457 @@ Wednesday:9/20/2017|16:37:15:599 - [INFO]   - [VIETLOTT][message]: dbPath = mong
 Wednesday:9/20/2017|16:37:15:628 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
 Wednesday:9/20/2017|16:43:35:10 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
 Wednesday:9/20/2017|16:43:35:40 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|14:13:46:970 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|14:13:46:998 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|14:14:9:746 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|14:14:9:775 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|14:14:53:882 - [ERROR]   - [VIETLOTT][message]: null
+Friday:9/29/2017|14:14:53:883 - [INFO]   - [VIETLOTT][message]: { __v: 0, _id: 59cdf2edc867c4765db261e6, age: 25, name: 'bao' }
+Friday:9/29/2017|14:29:15:808 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|14:29:15:838 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|14:34:58:657 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|14:34:58:702 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|14:46:47:443 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|14:46:47:472 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|14:48:8:496 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|14:48:8:526 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:1:57:70 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:1:57:99 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:2:19:827 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:2:19:868 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:2:26:218 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:2:26:278 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:2:31:38 - [INFO]   - [VIETLOTT][message]: { __v: 0, _id: 59cdfe178b33ea7d42e83d27, age: 25, name: 'bao' }
+Friday:9/29/2017|15:2:52:541 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:2:52:570 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:3:29:15 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:3:29:45 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:3:40:956 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:3:40:983 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:3:49:360 - [INFO]   - [VIETLOTT][message]: { __v: 0, _id: 59cdfe65b23fc47d8de1a66d, age: 25, name: 'bao' }
+Friday:9/29/2017|15:4:3:908 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:4:3:936 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:4:9:504 - [INFO]   - [VIETLOTT][message]: { __v: 0, _id: 59cdfe79ed41e37da7f3c80d, age: 25, name: 'bao' }
+Friday:9/29/2017|15:23:21:724 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:23:21:762 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:24:2:480 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:24:2:514 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:24:45:747 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:24:45:775 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:26:45:292 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:26:45:320 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:30:26:384 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:30:26:413 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:31:26:946 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:31:26:975 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:32:49:512 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:32:49:550 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:36:47:375 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:36:47:403 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:37:36:71 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:37:36:99 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:38:42:694 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:38:42:734 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:45:39:516 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:45:39:544 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:46:30:647 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:46:30:675 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:46:47:877 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:46:47:905 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:47:0:876 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:47:0:904 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:47:23:298 - [INFO]   - [VIETLOTT][message]: { __v: 0, _id: 59ce089b80099381971ef91a, age: 25, name: 'bao' }
+Friday:9/29/2017|15:47:23:306 - [INFO]   - [VIETLOTT][message]: [END]>>>>>>
+Friday:9/29/2017|15:47:36:720 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:47:36:748 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:47:47:277 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:47:47:305 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:52:39:290 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:52:39:318 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:53:15:694 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:53:15:723 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:54:16:618 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:54:16:646 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:56:48:76 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:56:48:105 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:58:26:842 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:58:26:870 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|15:58:31:221 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|15:58:31:249 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:2:54:371 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:2:54:399 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:2:58:503 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:2:58:532 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:10:42:268 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:10:42:297 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:15:32:685 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:15:32:716 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:18:32:718 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:19:41:800 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:19:41:829 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:20:4:150 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:20:4:181 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:20:45:804 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:20:45:834 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:20:50:638 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:20:50:652 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:21:14:792 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:21:14:820 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:21:29:378 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:21:29:406 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:21:55:712 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:21:55:723 - [ERROR]   - [VIETLOTT][message]: ReferenceError: error is not defined
+Friday:9/29/2017|16:21:55:727 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:22:41:500 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:22:41:530 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:22:44:367 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:22:44:377 - [ERROR]   - [VIETLOTT][message]: Error ReferenceError: error is not defined
+Friday:9/29/2017|16:22:44:381 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:23:6:662 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:23:6:691 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:24:2:304 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:24:2:332 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:24:28:796 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:24:28:824 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:24:37:243 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:24:37:271 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:24:55:837 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:24:55:919 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1167cad1f8840a7b15f7
+Friday:9/29/2017|16:24:55:920 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:24:55:920 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:24:55:920 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:24:55:920 - [ERROR]   - [VIETLOTT][message]: Error ReferenceError: first_prize_id is not defined
+Friday:9/29/2017|16:24:55:925 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:26:52:316 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:26:52:345 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:27:5:914 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:27:5:944 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:27:29:84 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:27:29:126 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:27:54:494 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:27:54:522 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:28:12:722 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:28:12:749 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:28:34:718 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:28:34:786 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce124292388e846875682e
+Friday:9/29/2017|16:28:34:787 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:28:34:787 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:28:34:788 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:28:34:788 - [ERROR]   - [VIETLOTT][message]: Error >>>>>ReferenceError: first_prize_id is not defined
+Friday:9/29/2017|16:28:34:792 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:29:7:759 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:29:7:789 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:29:11:337 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:29:11:365 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:29:17:358 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:29:17:382 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce126d12fb068487a046e8
+Friday:9/29/2017|16:29:17:382 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:29:17:382 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:29:17:383 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:29:17:383 - [ERROR]   - [VIETLOTT][message]: Error >>>>>{}
+Friday:9/29/2017|16:29:17:387 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:29:45:847 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:29:45:874 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:29:48:619 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:29:48:647 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:29:52:480 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:29:52:506 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce12905bdc6e84a6c313a5
+Friday:9/29/2017|16:29:52:506 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:29:52:507 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:29:52:507 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:30:38:299 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:30:38:304 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce12be5bdc6e84a6c313a9
+Friday:9/29/2017|16:30:38:304 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:30:38:304 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:30:38:304 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:31:15:100 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:31:15:128 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:31:21:392 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:31:21:421 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:31:26:881 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:31:26:904 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce12eea65bb484db8d03ee
+Friday:9/29/2017|16:31:26:905 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:31:26:905 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:31:26:905 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:31:26:906 - [ERROR]   - [VIETLOTT][message]: ReferenceError: first_prize_id is not defined
+Friday:9/29/2017|16:31:26:910 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:32:0:857 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:32:0:884 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:32:3:147 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:32:3:175 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:36:41:262 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:36:41:292 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:36:47:702 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:36:47:725 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce142fb98bc38537532c79
+Friday:9/29/2017|16:36:47:725 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:36:47:726 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:36:47:726 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:36:47:726 - [ERROR]   - [VIETLOTT][message]: ReferenceError: first_prize_id is not defined
+Friday:9/29/2017|16:36:47:731 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:37:32:351 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:37:32:382 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:37:34:771 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:37:34:799 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:37:37:97 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:37:37:121 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce14614d71ea85540f3d03
+Friday:9/29/2017|16:37:37:122 - [INFO]   - [VIETLOTT][message]: second_prize_id undefined
+Friday:9/29/2017|16:37:37:122 - [INFO]   - [VIETLOTT][message]: third_prize_id undefined
+Friday:9/29/2017|16:37:37:123 - [INFO]   - [VIETLOTT][message]: jackpot_id undefined
+Friday:9/29/2017|16:37:37:123 - [ERROR]   - [VIETLOTT][message]: ReferenceError: first_prize_id is not defined
+Friday:9/29/2017|16:37:37:127 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:48:25:867 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:48:25:901 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:50:51:694 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:50:51:739 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce177b529e4285c5e1af27
+Friday:9/29/2017|16:50:51:739 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce177b529e4285c5e1af28
+Friday:9/29/2017|16:50:51:739 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce177b529e4285c5e1af29
+Friday:9/29/2017|16:50:51:739 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce177b529e4285c5e1af2a
+Friday:9/29/2017|16:50:51:742 - [INFO]   - [VIETLOTT][message]: >>>>>>>>>>>>
+Friday:9/29/2017|16:50:51:742 - [INFO]   - [VIETLOTT][message]: {"jackpot":"59ce177b529e4285c5e1af2a","third_prize":"59ce177b529e4285c5e1af29","second_prize":"59ce177b529e4285c5e1af28","first_prize":"59ce177b529e4285c5e1af27","_id":"59ce177b529e4285c5e1af2b","updated_at":"2017-09-29T09:50:51.739Z","created_at":"2017-09-29T09:50:51.739Z","bonus_day":"2017-09-29T09:50:51.739Z","reward_id":"#00186"}
+Friday:9/29/2017|16:50:51:747 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:54:56:477 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:54:56:509 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:54:59:703 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:54:59:734 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:55:41:429 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:55:41:459 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:55:44:688 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:55:44:734 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce18a0a3e3b5862828bc0f
+Friday:9/29/2017|16:55:44:734 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce18a0a3e3b5862828bc11
+Friday:9/29/2017|16:55:44:734 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce18a0a3e3b5862828bc10
+Friday:9/29/2017|16:55:44:734 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce18a0a3e3b5862828bc12
+Friday:9/29/2017|16:55:44:737 - [INFO]   - [VIETLOTT][message]: undefined
+Friday:9/29/2017|16:55:44:742 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:58:5:642 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:58:5:669 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:58:19:39 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:58:19:66 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:58:26:422 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:58:26:469 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1942ba8ce08659df3131
+Friday:9/29/2017|16:58:26:469 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1942ba8ce08659df3132
+Friday:9/29/2017|16:58:26:469 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1942ba8ce08659df3133
+Friday:9/29/2017|16:58:26:469 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1942ba8ce08659df3134
+Friday:9/29/2017|16:58:26:472 - [INFO]   - [VIETLOTT][message]: undefined
+Friday:9/29/2017|16:58:26:479 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:58:49:383 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:58:49:413 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:59:1:820 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:59:1:853 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:59:2:516 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:59:2:545 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:59:7:355 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:59:7:400 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce196b5bd67e8681ecb541
+Friday:9/29/2017|16:59:7:400 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce196b5bd67e8681ecb542
+Friday:9/29/2017|16:59:7:400 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce196b5bd67e8681ecb543
+Friday:9/29/2017|16:59:7:400 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce196b5bd67e8681ecb544
+Friday:9/29/2017|16:59:7:408 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:59:7:409 - [INFO]   - [VIETLOTT][message]: undefined
+Friday:9/29/2017|16:59:40:440 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:59:40:471 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:59:43:114 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:59:43:145 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:59:45:692 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:59:45:720 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:59:48:949 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|16:59:48:977 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|16:59:52:358 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|16:59:52:407 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce19980d6ea786ad4cdaaa
+Friday:9/29/2017|16:59:52:407 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce19980d6ea786ad4cdaab
+Friday:9/29/2017|16:59:52:407 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce19980d6ea786ad4cdaac
+Friday:9/29/2017|16:59:52:407 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce19980d6ea786ad4cdaad
+Friday:9/29/2017|16:59:52:415 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|16:59:52:416 - [INFO]   - [VIETLOTT][message]: undefined
+Friday:9/29/2017|16:59:52:416 - [INFO]   - [VIETLOTT][message]: ValidationError: bonus_day: Cast to Date failed for value "moment.invalid(/* undefined */)" at path "bonus_day"
+Friday:9/29/2017|17:0:50:262 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:0:50:291 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:0:56:603 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:0:56:630 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:1:0:760 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:1:0:804 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce19dc6cc96786dc0fb624
+Friday:9/29/2017|17:1:0:804 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce19dc6cc96786dc0fb625
+Friday:9/29/2017|17:1:0:804 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce19dc6cc96786dc0fb626
+Friday:9/29/2017|17:1:0:804 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce19dc6cc96786dc0fb627
+Friday:9/29/2017|17:1:0:811 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:1:0:890 - [INFO]   - [VIETLOTT][message]: { __v: 0,
+  jackpot: 59ce19dc6cc96786dc0fb627,
+  third_prize: 59ce19dc6cc96786dc0fb626,
+  second_prize: 59ce19dc6cc96786dc0fb625,
+  first_prize: 59ce19dc6cc96786dc0fb624,
+  _id: 59ce19dc6cc96786dc0fb628,
+  updated_at: 2017-09-29T10:01:00.805Z,
+  created_at: 2017-09-29T10:01:00.805Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|17:1:0:894 - [INFO]   - [VIETLOTT][message]: null
+Friday:9/29/2017|17:1:15:803 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:1:15:832 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:1:22:875 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:1:22:903 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:1:24:674 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:1:24:702 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:2:23:301 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:2:23:372 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1a2fba55f08706c3850d
+Friday:9/29/2017|17:2:23:373 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1a2fba55f08706c3850f
+Friday:9/29/2017|17:2:23:373 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1a2fba55f08706c38510
+Friday:9/29/2017|17:2:23:373 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1a2fba55f08706c3850e
+Friday:9/29/2017|17:2:23:378 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:3:7:574 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:3:7:601 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:3:9:883 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:3:9:911 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:3:13:935 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:3:13:983 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1a6100a49e873ae7db76
+Friday:9/29/2017|17:3:13:983 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1a6100a49e873ae7db77
+Friday:9/29/2017|17:3:13:983 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1a6100a49e873ae7db78
+Friday:9/29/2017|17:3:13:983 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1a6100a49e873ae7db79
+Friday:9/29/2017|17:3:13:989 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:3:13:991 - [INFO]   - [VIETLOTT][message]: { __v: 0,
+  jackpot: 59ce1a6100a49e873ae7db79,
+  third_prize: 59ce1a6100a49e873ae7db78,
+  second_prize: 59ce1a6100a49e873ae7db77,
+  first_prize: 59ce1a6100a49e873ae7db76,
+  _id: 59ce1a6100a49e873ae7db7a,
+  updated_at: 2017-09-29T10:03:13.983Z,
+  created_at: 2017-09-29T10:03:13.983Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|17:3:55:574 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:3:55:603 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:4:12:145 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:4:12:173 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:4:14:191 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:4:14:217 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:4:21:728 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:4:21:770 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1aa5e26ad78767538da3
+Friday:9/29/2017|17:4:21:770 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1aa5e26ad78767538da4
+Friday:9/29/2017|17:4:21:770 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1aa5e26ad78767538da5
+Friday:9/29/2017|17:4:21:770 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1aa5e26ad78767538da6
+Friday:9/29/2017|17:4:21:772 - [INFO]   - [VIETLOTT][message]: INFO undefined
+Friday:9/29/2017|17:4:21:777 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:4:21:779 - [INFO]   - [VIETLOTT][message]: { __v: 0,
+  jackpot: 59ce1aa5e26ad78767538da6,
+  third_prize: 59ce1aa5e26ad78767538da5,
+  second_prize: 59ce1aa5e26ad78767538da4,
+  first_prize: 59ce1aa5e26ad78767538da3,
+  _id: 59ce1aa5e26ad78767538da7,
+  updated_at: 2017-09-29T10:04:21.771Z,
+  created_at: 2017-09-29T10:04:21.771Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|17:10:25:55 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:10:25:84 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:10:27:416 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:10:27:444 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:10:32:668 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:10:32:717 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1c18565fa987b01acaea
+Friday:9/29/2017|17:10:32:717 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1c18565fa987b01acaeb
+Friday:9/29/2017|17:10:32:717 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1c18565fa987b01acaec
+Friday:9/29/2017|17:10:32:717 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1c18565fa987b01acaed
+Friday:9/29/2017|17:10:32:718 - [INFO]   - [VIETLOTT][message]: >>>> 1
+Friday:9/29/2017|17:10:32:719 - [INFO]   - [VIETLOTT][message]: INFO >>>>>undefined
+Friday:9/29/2017|17:10:32:723 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:10:32:726 - [INFO]   - [VIETLOTT][message]: >>>> 2
+Friday:9/29/2017|17:16:59:553 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:16:59:580 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:17:3:988 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:17:4:16 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:17:8:398 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:17:8:442 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1da42455b1880c88c1f3
+Friday:9/29/2017|17:17:8:442 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1da42455b1880c88c1f5
+Friday:9/29/2017|17:17:8:442 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1da42455b1880c88c1f4
+Friday:9/29/2017|17:17:8:442 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1da42455b1880c88c1f6
+Friday:9/29/2017|17:17:8:443 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:20:28:807 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:20:28:866 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:23:18:723 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:23:18:750 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:23:23:609 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:23:23:642 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:23:26:546 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:23:26:576 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:23:32:944 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:23:32:972 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:23:40:992 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:23:41:65 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1f2cd4262b89240bcd6b
+Friday:9/29/2017|17:23:41:65 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1f2dd4262b89240bcd6c
+Friday:9/29/2017|17:23:41:65 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1f2dd4262b89240bcd6d
+Friday:9/29/2017|17:23:41:65 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1f2dd4262b89240bcd6e
+Friday:9/29/2017|17:23:41:66 - [ERROR]   - [VIETLOTT][message]: Error ReferenceError: deferred is not defined
+Friday:9/29/2017|17:23:41:71 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:24:50:323 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:24:50:352 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:24:53:240 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:24:53:268 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:24:57:668 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:24:57:711 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce1f796579f58952348049
+Friday:9/29/2017|17:24:57:711 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce1f796579f5895234804b
+Friday:9/29/2017|17:24:57:711 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce1f796579f5895234804a
+Friday:9/29/2017|17:24:57:712 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce1f796579f5895234804c
+Friday:9/29/2017|17:24:57:713 - [ERROR]   - [VIETLOTT][message]: Error ReferenceError: deferred is not defined
+Friday:9/29/2017|17:24:57:718 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:26:35:880 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:26:35:909 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:26:42:797 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:26:42:825 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:26:45:86 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:26:45:117 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:27:10:963 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:27:10:992 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:27:13:736 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:27:13:768 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:27:23:50 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:27:23:79 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:27:25:361 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:27:25:390 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:27:57:906 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:27:57:942 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:28:3:131 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:28:3:158 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:28:4:53 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:28:4:80 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:38:44:580 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:38:44:609 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:38:49:282 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:38:49:330 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce22b9ada8dc8dc7edeab9
+Friday:9/29/2017|17:38:49:330 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce22b9ada8dc8dc7edeaba
+Friday:9/29/2017|17:38:49:330 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce22b9ada8dc8dc7edeabb
+Friday:9/29/2017|17:38:49:330 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce22b9ada8dc8dc7edeabc
+Friday:9/29/2017|17:38:49:337 - [INFO]   - [VIETLOTT][message]: >>>>>> 1
+Friday:9/29/2017|17:38:49:339 - [INFO]   - [VIETLOTT][message]: >>>>>> 2
+Friday:9/29/2017|17:38:49:342 - [INFO]   - [VIETLOTT][message]: INFO >>>>>{ __v: 0,
+  jackpot: 59ce22b9ada8dc8dc7edeabc,
+  third_prize: 59ce22b9ada8dc8dc7edeabb,
+  second_prize: 59ce22b9ada8dc8dc7edeaba,
+  first_prize: 59ce22b9ada8dc8dc7edeab9,
+  _id: 59ce22b9ada8dc8dc7edeabd,
+  updated_at: 2017-09-29T10:38:49.330Z,
+  created_at: 2017-09-29T10:38:49.330Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|17:38:49:346 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:39:42:305 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:39:42:333 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:39:45:383 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:39:45:411 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:39:56:896 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Friday:9/29/2017|17:39:56:942 - [INFO]   - [VIETLOTT][message]: first_prize_id 59ce22fc982eea8df186563b
+Friday:9/29/2017|17:39:56:942 - [INFO]   - [VIETLOTT][message]: second_prize_id 59ce22fc982eea8df186563c
+Friday:9/29/2017|17:39:56:942 - [INFO]   - [VIETLOTT][message]: third_prize_id 59ce22fc982eea8df186563d
+Friday:9/29/2017|17:39:56:942 - [INFO]   - [VIETLOTT][message]: jackpot_id 59ce22fc982eea8df186563e
+Friday:9/29/2017|17:39:56:943 - [INFO]   - [VIETLOTT][message]: >>>>>> 1
+Friday:9/29/2017|17:39:56:944 - [INFO]   - [VIETLOTT][message]: >>>>>> 2
+Friday:9/29/2017|17:39:56:947 - [INFO]   - [VIETLOTT][message]: INFO >>>>>{ __v: 0,
+  jackpot: 59ce22fc982eea8df186563e,
+  third_prize: 59ce22fc982eea8df186563d,
+  second_prize: 59ce22fc982eea8df186563c,
+  first_prize: 59ce22fc982eea8df186563b,
+  _id: 59ce22fc982eea8df186563f,
+  updated_at: 2017-09-29T10:39:56.942Z,
+  created_at: 2017-09-29T10:39:56.942Z,
+  bonus_day: 2017-09-01T09:15:50.000Z,
+  reward_id: '#00186' }
+Friday:9/29/2017|17:39:56:951 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Friday:9/29/2017|17:40:16:405 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:40:16:438 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Friday:9/29/2017|17:40:18:555 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Friday:9/29/2017|17:40:18:587 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
