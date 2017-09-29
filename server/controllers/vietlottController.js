@@ -9,35 +9,21 @@ const moment = require('moment');
 const Logger = require('../log/log');
 const constant = require('../config/constant');
 const general_util = require('../libs/general_util');
+const error_key = require('../config/error_key');
 
 const Test = require('../models/test');
 const Reward = require('../models/reward');
 const Vietlott = require('../models/vietlott');
 
-router.get('/', function(req, res) {
-    addNewUser()
-    .then(user => {
-        Logger.logInfo(user);
-        general_util.response('successfuly', user, true, res);
-    })
-    .catch(error => {
-        Logger.logError(error);
-        general_util.response('failed', {}, false, res);
-    });
-});
-
-router.get("/fetch", function(req, res, next) {
-    request('http://vietlott.vn/vi/home/', function(error, response, body) {
-        if (error) { 
-            return;
-        }
-
-        general_util.response('successfuly', null, true, res);
-
-        var responseProcess = function(result) {
-
-        };
-
+/**
+ * Get lasted vietlott
+ */
+router.get('/', (req, res) => {
+    const test = new Test();
+    test.name = 'bao';
+    test.age = 'dsdsd';
+    test.save((error, object) => {
+        return general_util.response(error, error_key.not_found, object, res);
     });
 });
 
@@ -52,7 +38,7 @@ router.post('/', function(req, res) {
     const third_prize = body.third_prize;
     const jackpot = body.jackpot;
     const reward_id = body.reward_id;
-    const bonus_day = moment(body.bonus_day, 'dd/MM/yyyy hh:mm:ss');
+    const bonus_day = moment(body.bonus_day, 'dd-MM-yyyy hh:mm:ss');
 
     Promise.all([
         addReward(first_prize),
@@ -68,33 +54,16 @@ router.post('/', function(req, res) {
         return addVietlott(first_prize_id, second_prize_id, third_prize_id, jackpot_id, reward_id, bonus_day);
     })
     .then(function(vietlott) {
-        general_util.response('successfuly', vietlott, true, res);
+        general_util.response('', null, vietlott, res);
     })
     .catch(function(error) {
-        general_util.response('failed', {}, false, res);
+        general_util.response('failed', error_key.not_found, {}, res);
     })
     .then(() => {
         Logger.logDebug('[END] Add new vietlott');
     });
 });
-/**
- * 
- * Private function
- */
-function addNewUser() {
-    return new Promise(function(resolve, reject) {
-        const test = new Test();
-        test.name = 'bao';
-        test.age = 25;
-        test.save(function(error, object) {
-            if (error) {
-                reject(error);
-            } else {
-                resolve(object);
-            }
-        });
-    });
-};
+
 
 /**
  * 
@@ -124,7 +93,7 @@ function addReward(rewardJSON) {
  * @param {* ObjectId} third_prize 
  * @param {* ObjectId} jackpot 
  * @param {* String} reward_id 
- * @param {* Date format dd/MM/yyyy hh:mm:ss} bonus_day
+ * @param {* Date format dd-MM-yyyy hh:mm:ss} bonus_day
  */
 function addVietlott(first_prize, second_prize, third_prize, jackpot, reward_id, bonus_day) {
     const vietlott = new Vietlott();

@@ -1,106 +1,35 @@
 const _ = require('underscore');
 const constant = require('../config/constant');
-const message_key = require('../config/message_key');
-const error_key = require('../config/error_key');
 
 var general_util = {
     /**
-     * Function generate response format
-     * @param messageKey: key input
-     * @param data: data send to client 
-     * @param isSuccess: true: success, false: error message
-     * @param res: response
-     * @return return json message
+     * 
      */
-    response: function(messageKey, datas, isSuccess, res) {
-        var response = null;
-        if (isSuccess) {
-          response = this.generateSuccessWithKey(messageKey);
+    response: function(message, error_code, data, res) {
+        var response = {};
+        response[constant.status] = this.isNull(error_code);
+        if (this.isNull(error_code)) {
+            // Response success
+            response[constant.message] = message;
         } else {
-          response = this.generateErrorWithKey(messageKey);
+            response[constant.message] = this.generateErrorMessage(message);
         }
-        if (datas) {
-          response[constant.results] = datas;
-        } else {
-            response[constant.results] = {};
-        }
+        response[constant.error_code] = error_code;
+        response[constant.results] = this.isNull(data) ? {} : data;
         response[constant.server_time] = new Date().toISOString();
         res.json(response);
     },
-    /**
-     * Function generate success format
-     * @param key: key input
-     * @return return json message
-     */
-    generateSuccessWithKey: function(key) {
-        var message = '';
-        if (key) {
-          message = this.generateMessageByKey(key);
+    generateErrorMessage: function(error) {
+        const errors = error.errors;
+        const keys = Object.keys(errors);
+        var errorArray = [];
+        for (var index in keys ) {
+            errorArray.push(errors[keys[index]].message);
         }
-        var response = {};
-        response[constant.status] = true;
-        response[constant.message] = message;
-        return response;
-    },
-    /**
-     * Function generate error format
-     * @param key: key input
-     * @return return json message
-     */
-    generateErrorWithKey: function(key) {
-        var response = {};
-        response[constant.status] = false;
-
-        var error = {};
-        error[constant.error_code] = this.generateErrorCodeByKey(key);
-        error[constant.message] = this.generateMessageByKey(key);
-        response[constant.error] = error;
-        return response;
-    },
-    /**
-     * get error code by key
-     * @return return code number
-     */
-    generateErrorCodeByKey: function(key) {
-        if (key) {
-            var keys = key.split('.');
-            var errorCode = error_key;
-            try {
-
-                keys.forEach(function(element) {
-                    errorCode = errorCode[element];
-                });
-                if (errorCode) {
-                    return errorCode;
-                }
-                return 404;
-            } catch (error) {
-                return 404;
-            }
-        }
-        return 404;
-    },
-    /**
-     * get error message by key
-     * @return return error message string
-     */
-    generateMessageByKey: function(key) {
-        if (key) {
-            var keys = key.split('.');
-            var message = message_key;
-            try {
-                keys.forEach(function(element) {
-                    message = message[element];
-                });
-                return message;
-            } catch (error) {
-                return '';
-            }
-        }
-        return null;
+        return errorArray.join(', ');
     },
     isNull: function (value) {
-        return typeof (value) === 'undefined' || value == null || value.length <= 0;
+        return _.isUndefined(value) || _.isNull(value);
     }
 };
 

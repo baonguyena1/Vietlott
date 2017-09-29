@@ -1,6 +1,6 @@
 var error_key = {
     // 'successfuly': 500
-    'missing_url': 422
+    'not_found': 404
 };
 
 module.exports = error_key;

@@ -3,7 +3,8 @@
 # Dump and Restore Database
 ## Dump database
     mongodump --db=Vietlott --dumpDbUsersAndRoles -u vietlott -p 12345 --out=./
-
+## Restore Database
+    mongorestore -d Vietlott --drop --restoreDbUsersAndRoles --dir=../backup/database/20092017_1/Vietlott/
 
 ## Create new user
     db.createUser(
