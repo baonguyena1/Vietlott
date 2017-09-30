@@ -1,0 +1,6 @@
+framework module Pods_Vietlott {
+  umbrella header "Pods-Vietlott-umbrella.h"
+
+  export *
+  module * { export * }
+}

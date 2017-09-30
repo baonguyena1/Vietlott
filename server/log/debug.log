@@ -4530,3 +4530,5 @@ Saturday:9/30/2017|12:8:25:35 - [INFO]   - [VIETLOTT][message]: null
 Saturday:9/30/2017|12:8:25:37 - [INFO]   - [VIETLOTT][message]: [END] get history
 Saturday:9/30/2017|12:8:35:142 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
 Saturday:9/30/2017|12:8:35:188 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|12:11:37:189 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|12:11:37:232 - [INFO]   - [VIETLOTT][message]: App listening at port 8000

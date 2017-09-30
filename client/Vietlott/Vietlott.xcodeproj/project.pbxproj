@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25F5EB5C6B1545225272DBF3 /* Pods_VietlottTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D317A701113275743F0F751C /* Pods_VietlottTests.framework */; };
+		3022AAA45074AB68DBB2449A /* Pods_Vietlott.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D543D0369D399BB6BD51CE0 /* Pods_Vietlott.framework */; };
 		BF4736D61F6E1E5100925C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4736D51F6E1E5100925C62 /* AppDelegate.swift */; };
 		BF4736D81F6E1E5100925C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4736D71F6E1E5100925C62 /* ViewController.swift */; };
 		BF4736DB1F6E1E5100925C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4736D91F6E1E5100925C62 /* Main.storyboard */; };
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D543D0369D399BB6BD51CE0 /* Pods_Vietlott.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vietlott.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F62202C298ACD7EA55DE60E /* Pods-VietlottTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietlottTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VietlottTests/Pods-VietlottTests.debug.xcconfig"; sourceTree = "<group>"; };
+		442949891C2F899E29790EA1 /* Pods-Vietlott.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vietlott.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vietlott/Pods-Vietlott.debug.xcconfig"; sourceTree = "<group>"; };
+		5276B7ECD81E39F3A469D247 /* Pods-VietlottTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VietlottTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VietlottTests/Pods-VietlottTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF4736D21F6E1E5100925C62 /* Vietlott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vietlott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4736D51F6E1E5100925C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF4736D71F6E1E5100925C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		BF4736E61F6E1E5100925C62 /* VietlottTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietlottTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4736EA1F6E1E5100925C62 /* VietlottTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietlottTests.swift; sourceTree = "<group>"; };
 		BF4736EC1F6E1E5100925C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A8B07A5939BECE0466EBEF /* Pods-Vietlott.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vietlott.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vietlott/Pods-Vietlott.release.xcconfig"; sourceTree = "<group>"; };
+		D317A701113275743F0F751C /* Pods_VietlottTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VietlottTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3022AAA45074AB68DBB2449A /* Pods_Vietlott.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F5EB5C6B1545225272DBF3 /* Pods_VietlottTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E69937913A68AAF09FC1E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				442949891C2F899E29790EA1 /* Pods-Vietlott.debug.xcconfig */,
+				D1A8B07A5939BECE0466EBEF /* Pods-Vietlott.release.xcconfig */,
+				3F62202C298ACD7EA55DE60E /* Pods-VietlottTests.debug.xcconfig */,
+				5276B7ECD81E39F3A469D247 /* Pods-VietlottTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		944F574BFEF4D3841C9189FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D543D0369D399BB6BD51CE0 /* Pods_Vietlott.framework */,
+				D317A701113275743F0F751C /* Pods_VietlottTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF4736C91F6E1E5100925C62 = {
 			isa = PBXGroup;
 			children = (
 				BF4736D41F6E1E5100925C62 /* Vietlott */,
 				BF4736E91F6E1E5100925C62 /* VietlottTests */,
 				BF4736D31F6E1E5100925C62 /* Products */,
+				25E69937913A68AAF09FC1E9 /* Pods */,
+				944F574BFEF4D3841C9189FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF4736EF1F6E1E5100925C62 /* Build configuration list for PBXNativeTarget "Vietlott" */;
 			buildPhases = (
+				810DE4E4487A0B89E0A02689 /* [CP] Check Pods Manifest.lock */,
 				BF4736CE1F6E1E5100925C62 /* Sources */,
 				BF4736CF1F6E1E5100925C62 /* Frameworks */,
 				BF4736D01F6E1E5100925C62 /* Resources */,
+				5D2487CFDCEA0A2201C04938 /* [CP] Embed Pods Frameworks */,
+				FB621749BAB3EC3CBD2FA85C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF4736F21F6E1E5100925C62 /* Build configuration list for PBXNativeTarget "VietlottTests" */;
 			buildPhases = (
+				2B28C606E72970B0F9B0DF20 /* [CP] Check Pods Manifest.lock */,
 				BF4736E21F6E1E5100925C62 /* Sources */,
 				BF4736E31F6E1E5100925C62 /* Frameworks */,
 				BF4736E41F6E1E5100925C62 /* Resources */,
+				E5CB5E4B5B164210F1AF7105 /* [CP] Embed Pods Frameworks */,
+				CBD786C91D9DDD6666418B48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B28C606E72970B0F9B0DF20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2487CFDCEA0A2201C04938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vietlott/Pods-Vietlott-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810DE4E4487A0B89E0A02689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD786C91D9DDD6666418B48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VietlottTests/Pods-VietlottTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CB5E4B5B164210F1AF7105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VietlottTests/Pods-VietlottTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB621749BAB3EC3CBD2FA85C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vietlott/Pods-Vietlott-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF4736CE1F6E1E5100925C62 /* Sources */ = {
@@ -351,6 +482,7 @@
 		};
 		BF4736F01F6E1E5100925C62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442949891C2F899E29790EA1 /* Pods-Vietlott.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +498,7 @@
 		};
 		BF4736F11F6E1E5100925C62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A8B07A5939BECE0466EBEF /* Pods-Vietlott.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +514,7 @@
 		};
 		BF4736F31F6E1E5100925C62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F62202C298ACD7EA55DE60E /* Pods-VietlottTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +532,7 @@
 		};
 		BF4736F41F6E1E5100925C62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5276B7ECD81E39F3A469D247 /* Pods-VietlottTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

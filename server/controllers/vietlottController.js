@@ -260,10 +260,6 @@ router.put('/:vietlott_id', (req, res) => {
 
 });
 
-router.get('/:vietlott_id/reward', (req, res) => {
-
-});
-
 /**
  * Get lasted vietlott
  */
