@@ -21,7 +21,7 @@ router.get('/:reward_id', (req, res) => {
     .catch(error => {
         util.response(util.generateMessageFromError(error), error_key.not_found, null, res);
     })
-})
+});
 
 router.post('/', (req, res) => {
     Logger.logInfo('[BEGIN] create reward');
@@ -95,8 +95,7 @@ router.put('/:reward_id', (req, res) => {
         });
         return defer.promise;
     }
-})
-
+});
 
 function getRewardById(reward_id) {
     var defer = Q.defer();
@@ -109,6 +108,6 @@ function getRewardById(reward_id) {
         }
     });
     return defer.promise;
-}
+};
 
 module.exports = router;

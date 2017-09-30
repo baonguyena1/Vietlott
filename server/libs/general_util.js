@@ -1,4 +1,5 @@
 const _ = require('underscore');
+const moment = require('moment');
 const constant = require('../config/constant');
 
 var general_util = {
@@ -29,6 +30,10 @@ var general_util = {
     },
     isNull: function (value) {
         return _.isUndefined(value) || _.isNull(value);
+    },
+    dateString(date) {
+        const dateObj = new Date(date);
+        return moment(dateObj).format(constant.day_format);
     }
 };
 

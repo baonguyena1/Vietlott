@@ -65,7 +65,15 @@ router.get('/test', (req, res) => {
  */
 router.get('/', (req, res) => {
     Logger.logInfo('[BEGIN] Get lasted vietlott');
-    getLastedVietlott()
+    
+    const dayString = (util.isNull(req.query.day) ? new Date().toISOString() : req.query.day);
+    const day = moment(dayString, constant.day_format).set({
+        hour: 23,
+        minute: 59,
+        second: 59,
+        millisecond: 0
+    });
+    getLastedVietlott(day)
     .then(function(vietlott) {
         util.response('', null, vietlott, res);
     })
@@ -88,7 +96,7 @@ router.post('/', function(req, res) {
     const third_prize = body.third_prize;
     const jackpot = body.jackpot;
     const reward_id = body.reward_id;
-    const bonus_day = moment(body.bonus_day, 'DD-MM-YYYY hh:mm:ss').format();
+    const bonus_day = moment(body.bonus_day, constant.day_format);
     const numbers = body.numbers;
 
     Q.all([
@@ -151,7 +159,7 @@ router.post('/', function(req, res) {
         vietlott.third_prize = third_prize;
         vietlott.jackpot = jackpot;
         vietlott.reward_id = reward_id;
-        vietlott.bonus_day = bonus_day;
+        vietlott.bonus_day = moment(bonus_day, constant.day_format);
         vietlott.numbers = numbers;
 
         var defered = Q.defer();
@@ -191,7 +199,7 @@ router.put('/:vietlott_id', (req, res) => {
                 vietlott.numbers = body.numbers;
             }
             if (!util.isNull(body.bonus_day)) {
-                vietlott.bonus_day = moment(body.bonus_day, 'DD-MM-YYYY hh:mm:ss').format();
+                vietlott.bonus_day = moment(body.bonus_day, constant.day_format);
             }
             if (!util.isNull(body.reward_id)) {
                 vietlott.reward_id = body.reward_id;
@@ -220,13 +228,18 @@ router.get('/:vietlott_id/reward', (req, res) => {
 /**
  * Get lasted vietlott
  */
-function getLastedVietlott() {
+function getLastedVietlott(day) {
     var defered = Q.defer();
     Vietlott
-    .findOne()
+    .findOne({
+        bonus_day: {
+            $lte: day
+        }
+    })
     .populate('first_prize second_prize third_prize jackpot')
     .sort({'bonus_day': -1})
     .exec(function(error, vietlott) {
+        Logger.logInfo(error);
         if (error) {
             defered.reject(error);
         } else {

@@ -4153,3 +4153,345 @@ Saturday:9/30/2017|10:13:48:937 - [INFO]   - [VIETLOTT][message]: dbPath = mongo
 Saturday:9/30/2017|10:13:48:997 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
 Saturday:9/30/2017|10:13:58:366 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
 Saturday:9/30/2017|10:13:58:415 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:15:48:29 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:15:48:66 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:16:9:582 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:16:9:618 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:16:12:210 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:16:12:247 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:32:10:918 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:32:10:961 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:32:51:130 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:32:51:172 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:40:54:409 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:40:54:446 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:42:27:753 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:42:27:797 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:42:55:812 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:44:4:519 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:44:4:566 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:44:26:66 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:44:26:80 - [INFO]   - [VIETLOTT][message]: Invalid date
+Saturday:9/30/2017|10:44:26:80 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "Invalid date" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|10:44:26:81 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|10:53:33:378 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:53:33:416 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:54:30:659 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:54:30:734 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:54:38:685 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:54:38:700 - [INFO]   - [VIETLOTT][message]: Invalid date
+Saturday:9/30/2017|10:54:38:700 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "Invalid date" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|10:54:38:700 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|10:55:50:237 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:55:50:281 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:56:2:631 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:56:2:642 - [INFO]   - [VIETLOTT][message]: 30-09-2017 10:56:02
+Saturday:9/30/2017|10:56:2:642 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "30-09-2017 10:56:02" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|10:56:2:642 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|10:56:48:0 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:56:48:42 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:56:58:837 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:56:58:874 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:57:11:248 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:57:11:285 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|10:57:16:244 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:57:16:353 - [INFO]   - [VIETLOTT][message]: 1506743836244
+Saturday:9/30/2017|10:57:16:354 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|10:57:16:354 - [INFO]   - [VIETLOTT][message]: { _id: 59ce7245d779bc16d854ed79,
+  jackpot: 
+   { _id: 59ce7245d779bc16d854ed78,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.842Z,
+     created_at: 2017-09-29T16:18:13.842Z,
+     prize_value: '14.386.322.000',
+     quantum: 0,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce7245d779bc16d854ed77,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.841Z,
+     created_at: 2017-09-29T16:18:13.841Z,
+     prize_value: '30.000',
+     quantum: 20811,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce7245d779bc16d854ed76,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.841Z,
+     created_at: 2017-09-29T16:18:13.841Z,
+     prize_value: '300.000',
+     quantum: 1166,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce7245d779bc16d854ed75,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.834Z,
+     created_at: 2017-09-29T16:18:13.834Z,
+     prize_value: '10.000.000',
+     quantum: 20,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T16:18:13.897Z,
+  created_at: 2017-09-29T16:18:13.897Z,
+  bonus_day: 2017-09-29T09:15:50.000Z,
+  reward_id: '#00187',
+  numbers: [ 23, 28, 30, 35, 37, 42 ] }
+Saturday:9/30/2017|10:57:16:365 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|10:57:45:81 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:57:45:111 - [INFO]   - [VIETLOTT][message]: 1506743865081
+Saturday:9/30/2017|10:57:45:111 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|10:57:45:111 - [INFO]   - [VIETLOTT][message]: { _id: 59ce7245d779bc16d854ed79,
+  jackpot: 
+   { _id: 59ce7245d779bc16d854ed78,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.842Z,
+     created_at: 2017-09-29T16:18:13.842Z,
+     prize_value: '14.386.322.000',
+     quantum: 0,
+     reward_type: 0 },
+  third_prize: 
+   { _id: 59ce7245d779bc16d854ed77,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.841Z,
+     created_at: 2017-09-29T16:18:13.841Z,
+     prize_value: '30.000',
+     quantum: 20811,
+     reward_type: 3 },
+  second_prize: 
+   { _id: 59ce7245d779bc16d854ed76,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.841Z,
+     created_at: 2017-09-29T16:18:13.841Z,
+     prize_value: '300.000',
+     quantum: 1166,
+     reward_type: 2 },
+  first_prize: 
+   { _id: 59ce7245d779bc16d854ed75,
+     __v: 0,
+     updated_at: 2017-09-29T16:18:13.834Z,
+     created_at: 2017-09-29T16:18:13.834Z,
+     prize_value: '10.000.000',
+     quantum: 20,
+     reward_type: 1 },
+  __v: 0,
+  updated_at: 2017-09-29T16:18:13.897Z,
+  created_at: 2017-09-29T16:18:13.897Z,
+  bonus_day: 2017-09-29T09:15:50.000Z,
+  reward_id: '#00187',
+  numbers: [ 23, 28, 30, 35, 37, 42 ] }
+Saturday:9/30/2017|10:57:45:115 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|10:58:7:297 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:58:7:303 - [INFO]   - [VIETLOTT][message]: NaN
+Saturday:9/30/2017|10:58:7:303 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "moment.invalid(/* 27-09-2017 */)" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|10:58:7:303 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|10:58:37:318 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|10:58:37:319 - [INFO]   - [VIETLOTT][message]: NaN
+Saturday:9/30/2017|10:58:37:319 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "moment.invalid(/* 27/09/2017 */)" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|10:58:37:319 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|10:59:34:961 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|10:59:35:8 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:0:23:557 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:0:23:608 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:0:28:148 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:0:28:189 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:1:5:855 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:1:5:895 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:1:13:124 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:1:13:139 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "moment.invalid(/* 27-09-2017 */)" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|11:2:16:894 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:2:16:932 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:2:21:442 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:2:21:442 - [INFO]   - [VIETLOTT][message]: 27-09-2017
+Saturday:9/30/2017|11:2:21:445 - [INFO]   - [VIETLOTT][message]: NaN
+Saturday:9/30/2017|11:2:21:457 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "moment.invalid(/* 27-09-2017 */)" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|11:2:45:187 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:2:45:188 - [INFO]   - [VIETLOTT][message]: 1506744165188
+Saturday:9/30/2017|11:2:45:188 - [INFO]   - [VIETLOTT][message]: 1506744165188
+Saturday:9/30/2017|11:2:45:242 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:2:45:251 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:3:0:503 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:3:0:503 - [INFO]   - [VIETLOTT][message]: 1506744180503
+Saturday:9/30/2017|11:3:0:503 - [INFO]   - [VIETLOTT][message]: 1506744180503
+Saturday:9/30/2017|11:3:0:536 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:3:0:539 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:4:45:63 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:4:45:101 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:4:58:603 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:4:58:604 - [INFO]   - [VIETLOTT][message]: 30-09-2017
+Saturday:9/30/2017|11:4:58:607 - [INFO]   - [VIETLOTT][message]: NaN
+Saturday:9/30/2017|11:4:58:619 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "moment.invalid(/* 30-09-2017 */)" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|11:7:57:751 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:7:57:793 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:8:11:957 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:8:11:957 - [INFO]   - [VIETLOTT][message]: 1506744491957
+Saturday:9/30/2017|11:8:11:957 - [INFO]   - [VIETLOTT][message]: 1506744491957
+Saturday:9/30/2017|11:8:12:20 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:8:12:28 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:8:38:845 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:8:38:845 - [INFO]   - [VIETLOTT][message]: Sat Sep 30 2017 11:08:38 GMT+0700 (+07)
+Saturday:9/30/2017|11:8:38:849 - [INFO]   - [VIETLOTT][message]: 1506744518000
+Saturday:9/30/2017|11:8:38:876 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:8:38:878 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:8:48:668 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:8:48:668 - [INFO]   - [VIETLOTT][message]: Sat Sep 30 2017 11:08:48 GMT+0700 (+07)
+Saturday:9/30/2017|11:8:48:669 - [INFO]   - [VIETLOTT][message]: 1506744528000
+Saturday:9/30/2017|11:8:48:683 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:8:48:688 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:9:11:572 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:9:11:572 - [INFO]   - [VIETLOTT][message]: Sat Sep 30 2017 11:09:11 GMT+0700 (+07)
+Saturday:9/30/2017|11:9:11:573 - [INFO]   - [VIETLOTT][message]: 1506744551000
+Saturday:9/30/2017|11:9:11:582 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:9:11:584 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:9:22:287 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:9:22:287 - [INFO]   - [VIETLOTT][message]: Sat Sep 30 2017 11:09:22 GMT+0700 (+07)
+Saturday:9/30/2017|11:9:22:287 - [INFO]   - [VIETLOTT][message]: 1506744562000
+Saturday:9/30/2017|11:9:22:303 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:9:22:305 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:13:48:465 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:13:48:501 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:14:19:775 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:14:19:777 - [INFO]   - [VIETLOTT][message]: 1505840400000
+Saturday:9/30/2017|11:14:19:837 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:14:19:847 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:15:46:673 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:15:46:713 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:15:53:923 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:15:53:926 - [INFO]   - [VIETLOTT][message]: 1505840400000
+Saturday:9/30/2017|11:15:53:937 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "20-09-2017" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|11:16:25:431 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:16:25:432 - [INFO]   - [VIETLOTT][message]: 1505840400000
+Saturday:9/30/2017|11:16:25:434 - [INFO]   - [VIETLOTT][message]: CastError: Cast to date failed for value "20/09/2017" at path "bonus_day" for model "Vietlott"
+Saturday:9/30/2017|11:16:42:340 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:16:58:120 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:16:58:157 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:16:58:934 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:16:58:970 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:17:5:59 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:17:5:63 - [INFO]   - [VIETLOTT][message]: NaN
+Saturday:9/30/2017|11:17:5:129 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:17:5:137 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:17:35:307 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:17:35:353 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:17:39:470 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:17:39:470 - [INFO]   - [VIETLOTT][message]: 2017-09-30T04:17:39.470Z
+Saturday:9/30/2017|11:17:39:473 - [INFO]   - [VIETLOTT][message]: NaN
+Saturday:9/30/2017|11:17:39:533 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:17:39:541 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:18:18:352 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:18:18:404 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:18:22:298 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:18:22:298 - [INFO]   - [VIETLOTT][message]: 2017-09-30T04:18:22.298Z
+Saturday:9/30/2017|11:18:22:300 - [INFO]   - [VIETLOTT][message]: 1916067600000
+Saturday:9/30/2017|11:18:22:366 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:18:22:374 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:18:33:516 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:18:33:517 - [INFO]   - [VIETLOTT][message]: 2017-09-30T04:18:33.517Z
+Saturday:9/30/2017|11:18:33:517 - [INFO]   - [VIETLOTT][message]: 1916067600000
+Saturday:9/30/2017|11:18:33:551 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:18:33:553 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:20:14:570 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:20:14:613 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:20:23:490 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:20:23:560 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:20:23:568 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:20:38:609 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:20:38:635 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:20:38:637 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:20:46:504 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:20:46:533 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:20:46:535 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:21:32:423 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:21:32:428 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:21:32:429 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:22:6:344 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:22:6:397 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:22:10:381 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:22:10:449 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:22:10:458 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:22:23:334 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:22:23:340 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:22:23:343 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:22:56:438 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Saturday:9/30/2017|11:22:56:468 - [INFO]   - [VIETLOTT][message]: second_prize_id 59cf1c20898e6a0d3602abe6
+Saturday:9/30/2017|11:22:56:468 - [INFO]   - [VIETLOTT][message]: first_prize_id 59cf1c20898e6a0d3602abe5
+Saturday:9/30/2017|11:22:56:469 - [INFO]   - [VIETLOTT][message]: third_prize_id 59cf1c20898e6a0d3602abe7
+Saturday:9/30/2017|11:22:56:469 - [INFO]   - [VIETLOTT][message]: jackpot_id 59cf1c20898e6a0d3602abe8
+Saturday:9/30/2017|11:22:56:475 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Saturday:9/30/2017|11:32:26:607 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:32:26:651 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:32:38:619 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Saturday:9/30/2017|11:32:38:671 - [INFO]   - [VIETLOTT][message]: first_prize_id 59cf1e66f4df2f0d92b76e58
+Saturday:9/30/2017|11:32:38:671 - [INFO]   - [VIETLOTT][message]: second_prize_id 59cf1e66f4df2f0d92b76e59
+Saturday:9/30/2017|11:32:38:671 - [INFO]   - [VIETLOTT][message]: third_prize_id 59cf1e66f4df2f0d92b76e5a
+Saturday:9/30/2017|11:32:38:671 - [INFO]   - [VIETLOTT][message]: jackpot_id 59cf1e66f4df2f0d92b76e5b
+Saturday:9/30/2017|11:32:38:686 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Saturday:9/30/2017|11:32:55:898 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Saturday:9/30/2017|11:32:55:929 - [INFO]   - [VIETLOTT][message]: first_prize_id 59cf1e77f4df2f0d92b76e5d
+Saturday:9/30/2017|11:32:55:929 - [INFO]   - [VIETLOTT][message]: second_prize_id 59cf1e77f4df2f0d92b76e5e
+Saturday:9/30/2017|11:32:55:929 - [INFO]   - [VIETLOTT][message]: third_prize_id 59cf1e77f4df2f0d92b76e5f
+Saturday:9/30/2017|11:32:55:930 - [INFO]   - [VIETLOTT][message]: jackpot_id 59cf1e77f4df2f0d92b76e60
+Saturday:9/30/2017|11:32:55:937 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Saturday:9/30/2017|11:33:16:63 - [DEBUG]   - [VIETLOTT][message]: [BEGIN] Add new vietlott
+Saturday:9/30/2017|11:33:16:73 - [INFO]   - [VIETLOTT][message]: first_prize_id 59cf1e8cf4df2f0d92b76e62
+Saturday:9/30/2017|11:33:16:73 - [INFO]   - [VIETLOTT][message]: second_prize_id 59cf1e8cf4df2f0d92b76e63
+Saturday:9/30/2017|11:33:16:73 - [INFO]   - [VIETLOTT][message]: third_prize_id 59cf1e8cf4df2f0d92b76e64
+Saturday:9/30/2017|11:33:16:73 - [INFO]   - [VIETLOTT][message]: jackpot_id 59cf1e8cf4df2f0d92b76e65
+Saturday:9/30/2017|11:33:16:79 - [DEBUG]   - [VIETLOTT][message]: [END] Add new vietlott
+Saturday:9/30/2017|11:33:37:899 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:33:37:919 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:33:37:920 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:33:39:989 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:33:39:995 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:33:39:996 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:33:45:49 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:33:45:74 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:33:45:75 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:33:54:246 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:33:54:261 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:33:54:261 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:34:0:984 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:34:0:994 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:34:0:996 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:34:8:159 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:34:8:165 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:34:8:166 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:34:10:855 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:34:10:859 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:34:10:859 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:34:51:914 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:34:51:959 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:35:0:531 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:35:0:534 - [INFO]   - [VIETLOTT][message]: 27-09-2017 12:00:00
+Saturday:9/30/2017|11:35:0:552 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:35:0:559 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:37:29:297 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:37:29:347 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:37:32:766 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:37:32:771 - [INFO]   - [VIETLOTT][message]: 27-09-2017 12:00:00
+Saturday:9/30/2017|11:37:32:789 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:37:32:796 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:38:14:55 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:38:14:106 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:38:17:548 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:38:17:551 - [INFO]   - [VIETLOTT][message]: 27-09-2017 12:00:00
+Saturday:9/30/2017|11:38:17:570 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:38:17:576 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:38:38:252 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:38:38:290 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:40:6:710 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:40:6:755 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:40:10:688 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:42:57:484 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:42:57:528 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:44:28:658 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:44:28:663 - [INFO]   - [VIETLOTT][message]: 27-09-2017 11:59:59
+Saturday:9/30/2017|11:44:28:738 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:44:28:745 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:45:41:962 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:45:41:999 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:45:46:753 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Saturday:9/30/2017|11:45:46:757 - [INFO]   - [VIETLOTT][message]: 27-09-2017 23:59:59
+Saturday:9/30/2017|11:45:46:821 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|11:45:46:828 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
+Saturday:9/30/2017|11:46:6:141 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:46:6:188 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
