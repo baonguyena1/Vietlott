@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const request = require('request');
 const htmlparser = require("htmlparser2");
-const Promise = require('promise')
+const Q = require('q');
 const moment = require('moment');
 
 const Logger = require('../log/log');
@@ -21,8 +21,8 @@ router.get('/test', (req, res) => {
         util.response('', null, object, res);
     })
     .catch(error => {
-        console.log(error);
-        util.response(error, error_key.not_found, null, res);
+        const message = util.generateMessageFromError(error);
+        util.response(message, error_key.not_found, null, res);
     })
     .then(() => {
 
@@ -32,25 +32,31 @@ router.get('/test', (req, res) => {
         const test = new Test();
         test.name = '123';
         test.age = '123';
-        return new Promise((resolve, reject) => {
-            test.save((error, object) => {
-                if (error) return reject(error);
-                return resolve(object);
-            });
+        var defered = Q.defer();
+        test.save((error, object) => {
+            if (error) { 
+                defered.reject(error);
+            } else { 
+                defered.resolve(object);
+            }
         });
-        
+
+        return deferred.promise;
     };
 
     function getTest() {
         var id = '59ce7e38139aad0339a92db7';
-        return new Promise((resolve, reject) => {
-            Test.findById(id)
-            .exec((error, test) => {
-                if (error) return reject(error);
-                return resolve(test);
-            });
+        var defered = Q.defer();
+        Test.findById(id)
+        .exec((error, test) => {
+            if (error) {
+                defered.reject(error);
+            } else {
+                defered.resolve(test);
+            }
         });
         
+        return defered.promise;
     }
 });
 
@@ -64,7 +70,7 @@ router.get('/', (req, res) => {
         util.response('', null, vietlott, res);
     })
     .catch(function(error) {
-        util.response(error, constant.not_found, null, res);
+        util.response(util.generateMessageFromError(error), constant.not_found, null, res);
     })
     .then(function() {
         Logger.logInfo('[END] Get lasted vietlott');
@@ -85,7 +91,7 @@ router.post('/', function(req, res) {
     const bonus_day = moment(body.bonus_day, 'DD-MM-YYYY hh:mm:ss').format();
     const numbers = body.numbers;
 
-    Promise.all([
+    Q.all([
         addReward(first_prize),
         addReward(second_prize),
         addReward(third_prize),
@@ -102,7 +108,7 @@ router.post('/', function(req, res) {
         util.response('', null, vietlott, res);
     })
     .catch(function(error) {
-        util.response('failed', error_key.not_found, null, res);
+        util.response(util.generateMessageFromError(error), error_key.not_found, null, res);
     })
     .then(() => {
         Logger.logDebug('[END] Add new vietlott');
@@ -118,15 +124,15 @@ router.post('/', function(req, res) {
         reward.quantum = rewardJSON.quantum;
         reward.prize_value = rewardJSON.prize_value;
 
-        return new Promise(function(resolve, reject) {
-            reward.save(function(error, object) {
-                if (error) {
-                    reject(error);
-                } else {
-                    resolve(object.id);
-                }
-            });
+        var defered = Q.defer();
+        reward.save(function(error, object) {
+            if (error) {
+                defered.reject(error);
+            } else {
+                defered.resolve(object.id);
+            }
         });
+        return defered.promise;
     };
 
     /**
@@ -148,15 +154,15 @@ router.post('/', function(req, res) {
         vietlott.bonus_day = bonus_day;
         vietlott.numbers = numbers;
 
-        return new Promise(function(resolve, reject) {
-            vietlott.save(function(error, object) {
-                if (error) {
-                    reject(error);
-                } else {
-                    resolve(object);
-                }
-            });
+        var defered = Q.defer();
+        vietlott.save(function(error, object) {
+            if (error) {
+                defered.reject(error);
+            } else {
+                defered.resolve(object);
+            }
         });
+        return defered.promise;
     };
 
 
@@ -170,40 +176,39 @@ router.put('/:vietlott_id', (req, res) => {
         util.response('', null, vietlott, res);
     })
     .catch(error => {
-        console.log(error);
-        util.response(error, error_key.not_found, null, res);
+        util.response(util.generateMessageFromError(error), error_key.not_found, null, res);
     })
     .then(() => {
         Logger.logInfo('[END] update vietlott');
     });
 
     function updateForCollection(vietlott_id, body) {
-        return new Promise((resolve, reject) => {
-    
-            getVietlottById(vietlott_id)
-            .then(vietlott => {
-                
-                if (!util.isNull(body.numbers)) {
-                    vietlott.numbers = body.numbers;
-                }
-                if (!util.isNull(body.bonus_day)) {
-                    vietlott.bonus_day = moment(body.bonus_day, 'DD-MM-YYYY hh:mm:ss').format();
-                }
-                if (!util.isNull(body.reward_id)) {
-                    vietlott.reward_id = body.reward_id;
-                }
+        var defered = Q.defer();
+        getVietlottById(vietlott_id)
+        .then(vietlott => {
+            
+            if (!util.isNull(body.numbers)) {
+                vietlott.numbers = body.numbers;
+            }
+            if (!util.isNull(body.bonus_day)) {
+                vietlott.bonus_day = moment(body.bonus_day, 'DD-MM-YYYY hh:mm:ss').format();
+            }
+            if (!util.isNull(body.reward_id)) {
+                vietlott.reward_id = body.reward_id;
+            }
 
-                vietlott.save((error, object) => {
-
-                    if (error) return reject(error);
-                    return resolve(object);
-                })
+            vietlott.save((error, object) => {
+                if (error) {
+                    defered.reject(error);
+                } else {
+                    defered.resolve(object);
+                }
             })
-            .catch(error => {
-                reject(error);
-            });
-
+        })
+        .catch(error => {
+            deferd.reject(error);
         });
+        return defered.promise;
     }
 
 });
@@ -216,41 +221,35 @@ router.get('/:vietlott_id/reward', (req, res) => {
  * Get lasted vietlott
  */
 function getLastedVietlott() {
-    return new Promise(function(resolve, reject) {
-
-        Vietlott
-        .findOne()
-        .populate('first_prize second_prize third_prize jackpot')
-        .sort({'bonus_day': -1})
-        .exec(function(error, vietlott) {
-            if (error) {
-                reject(error);
-            } else {
-                resolve(vietlott);
-            }
-        });
-        
+    var defered = Q.defer();
+    Vietlott
+    .findOne()
+    .populate('first_prize second_prize third_prize jackpot')
+    .sort({'bonus_day': -1})
+    .exec(function(error, vietlott) {
+        if (error) {
+            defered.reject(error);
+        } else {
+            defered.resolve(vietlott);
+        }
     });
-    
+    return defered.promise;
 }
 
 function getVietlottById(id) {
-    return new Promise(function(resolve, reject) {
-
-        Vietlott
-        .findById(id)
-        .populate('first_prize second_prize third_prize jackpot')
-        .sort({'bonus_day': -1})
-        .exec(function(error, vietlott) {
-            if (error) {
-                reject(error);
-            } else {
-                resolve(vietlott);
-            }
-        });
-        
+    var defered = Q.defer();
+    Vietlott
+    .findById(id)
+    .populate('first_prize second_prize third_prize jackpot')
+    .sort({'bonus_day': -1})
+    .exec(function(error, vietlott) {
+        if (error) {
+            defered.reject(error);
+        } else {
+            defered.resolve(vietlott);
+        }
     });
-    
+    return defered.promise;
 }
 
 module.exports = router;

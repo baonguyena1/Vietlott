@@ -8,18 +8,17 @@ var general_util = {
     response: function(message, error_code, data, res) {
         var response = {};
         response[constant.status] = this.isNull(error_code);
-        if (this.isNull(error_code)) {
-            // Response success
-            response[constant.message] = message;
-        } else {
-            response[constant.message] = this.generateErrorMessage(message);
-        }
+        response[constant.message] = message;
         response[constant.error_code] = error_code;
         response[constant.results] = (this.isNull(data) ? {} : data);
         response[constant.server_time] = new Date().toISOString();
         res.json(response);
     },
-    generateErrorMessage: function(error) {
+    /**
+     * Get error message from error object
+     * @param {* Object} error
+     */
+    generateMessageFromError: function(error) {
         const errors = error.errors;
         const keys = Object.keys(errors);
         var errorArray = [];
