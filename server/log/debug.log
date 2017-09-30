@@ -4495,3 +4495,38 @@ Saturday:9/30/2017|11:45:46:821 - [INFO]   - [VIETLOTT][message]: null
 Saturday:9/30/2017|11:45:46:828 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott
 Saturday:9/30/2017|11:46:6:141 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
 Saturday:9/30/2017|11:46:6:188 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:48:51:260 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:48:51:331 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:53:22:864 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:53:22:904 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|11:57:28:331 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|11:57:28:371 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|12:0:51:488 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|12:0:51:543 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|12:2:59:901 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:2:59:969 - [INFO]   - [VIETLOTT][message]: [END] get history
+Saturday:9/30/2017|12:3:41:724 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:3:41:754 - [INFO]   - [VIETLOTT][message]: [END] get history
+Saturday:9/30/2017|12:4:17:651 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:4:44:235 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|12:4:44:276 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|12:4:49:240 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|12:4:49:278 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|12:4:53:81 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:6:21:867 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|12:6:21:913 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|12:6:26:443 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:6:26:460 - [INFO]   - [VIETLOTT][message]: MongoError: Failed to parse: { find: "vietlotts", filter: {}, sort: { bonus_day: -1 }, projection: {}, skip: "1", limit: "1" }. 'skip' field must be numeric.
+Saturday:9/30/2017|12:7:44:727 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|12:7:44:769 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Saturday:9/30/2017|12:8:7:493 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:8:7:559 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|12:8:7:567 - [INFO]   - [VIETLOTT][message]: [END] get history
+Saturday:9/30/2017|12:8:15:620 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:8:15:662 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|12:8:15:665 - [INFO]   - [VIETLOTT][message]: [END] get history
+Saturday:9/30/2017|12:8:25:31 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get history
+Saturday:9/30/2017|12:8:25:35 - [INFO]   - [VIETLOTT][message]: null
+Saturday:9/30/2017|12:8:25:37 - [INFO]   - [VIETLOTT][message]: [END] get history
+Saturday:9/30/2017|12:8:35:142 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Saturday:9/30/2017|12:8:35:188 - [INFO]   - [VIETLOTT][message]: App listening at port 8000

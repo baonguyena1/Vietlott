@@ -8,7 +8,9 @@ var constant = {
     'server_time': 'server_time',
     'enable_log': true,
     'day_format': 'DD-MM-YYYY HH:mm:ss',
-    'short_day_format': 'DD-MM-YYYY'
+    'short_day_format': 'DD-MM-YYYY',
+    'limit': 100,
+    'offset': 0
 };
 
 module.exports = constant;

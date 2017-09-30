@@ -86,6 +86,45 @@ router.get('/', (req, res) => {
 });
 
 /**
+ * Get list vietlott
+ */
+router.get('/history', (req, res) => {
+    Logger.logInfo('[BEGIN] Get history');
+    const query = req.query;
+    const skip = util.isNull(query.offset) ? constant.offset : parseInt(query.offset);
+    const limit = util.isNull(query.limit) ? constant.limit : parseInt(query.limit);
+
+    getListVietlott()
+    .then(vietlotts => {
+        util.response('', null, vietlotts, res);
+    })
+    .catch(error => {
+        util.response(util.generateMessageFromError(error), error_key.not_found, null, res);
+    })
+    .then(() => {
+        Logger.logInfo('[END] get history');
+    })
+    
+    function getListVietlott() {
+        const defer = Q.defer();
+        Vietlott
+        .find()
+        .sort({'bonus_day': -1})
+        .skip(skip)
+        .limit(limit)
+        .populate('first_prize second_prize third_prize jackpot')
+        .exec((error, vietlotts) => {
+            if (error) {
+                defer.reject(error);
+            } else {
+                defer.resolve(vietlotts);
+            }
+        })
+        return defer.promise;
+    }
+});
+
+/**
  * Create new vietlott
  */
 router.post('/', function(req, res) {
