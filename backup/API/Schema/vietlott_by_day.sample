@@ -1,0 +1,51 @@
+{
+    "status": true,
+    "message": "",
+    "error_code": null,
+    "results": {
+        "_id": "59ce1f2dd4262b89240bcd6f",
+        "jackpot": {
+            "_id": "59ce1f2dd4262b89240bcd6e",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:41.002Z",
+            "created_at": "2017-09-29T10:23:41.002Z",
+            "prize_value": "112.128.144.500",
+            "quantum": 1,
+            "reward_type": 0
+        },
+        "third_prize": {
+            "_id": "59ce1f2dd4262b89240bcd6d",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:41.002Z",
+            "created_at": "2017-09-29T10:23:41.002Z",
+            "prize_value": "30.000",
+            "quantum": 69922,
+            "reward_type": 3
+        },
+        "second_prize": {
+            "_id": "59ce1f2dd4262b89240bcd6c",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:41.001Z",
+            "created_at": "2017-09-29T10:23:41.001Z",
+            "prize_value": "300.000",
+            "quantum": 3964,
+            "reward_type": 2
+        },
+        "first_prize": {
+            "_id": "59ce1f2cd4262b89240bcd6b",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:40.996Z",
+            "created_at": "2017-09-29T10:23:40.996Z",
+            "prize_value": "10.000.000",
+            "quantum": 85,
+            "reward_type": 1
+        },
+        "__v": 0,
+        "updated_at": "2017-09-29T10:23:41.065Z",
+        "created_at": "2017-09-29T10:23:41.065Z",
+        "bonus_day": "2017-09-01T09:15:50.000Z",
+        "reward_id": "#00186",
+        "numbers": []
+    },
+    "server_time": "2017-10-02T04:51:31.284Z"
+}

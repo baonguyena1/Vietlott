@@ -39,5 +39,5 @@ app.get('/', function(req, res) {
 
 cron.start();
 
-app.use(API_V1 + '/vietlott/', vietlottController);
-app.use(API_V1 + '/reward/', rewardController);
+app.use(API_V1 + '/vietlotts/', vietlottController);
+app.use(API_V1 + '/rewards/', rewardController);

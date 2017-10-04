@@ -4532,3 +4532,12 @@ Saturday:9/30/2017|12:8:35:142 - [INFO]   - [VIETLOTT][message]: dbPath = mongod
 Saturday:9/30/2017|12:8:35:188 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
 Saturday:9/30/2017|12:11:37:189 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
 Saturday:9/30/2017|12:11:37:232 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Monday:10/2/2017|11:50:45:254 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Monday:10/2/2017|11:50:45:284 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Monday:10/2/2017|11:50:59:956 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Monday:10/2/2017|11:50:59:985 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Monday:10/2/2017|11:51:18:920 - [INFO]   - [VIETLOTT][message]: dbPath = mongodb://vietlott:123456@localhost/Vietlott
+Monday:10/2/2017|11:51:18:950 - [INFO]   - [VIETLOTT][message]: App listening at port 8000
+Monday:10/2/2017|11:51:31:235 - [INFO]   - [VIETLOTT][message]: [BEGIN] Get lasted vietlott
+Monday:10/2/2017|11:51:31:284 - [INFO]   - [VIETLOTT][message]: null
+Monday:10/2/2017|11:51:31:288 - [INFO]   - [VIETLOTT][message]: [END] Get lasted vietlott

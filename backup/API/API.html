@@ -1,0 +1,289 @@
+<!DOCTYPE HTML><html><head><title>Vietlott API API documentation</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="generator" content="https://github.com/raml2html/raml2html 6.4.1"><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css"><script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script><script type="text/javascript">
+      $(document).ready(function() {
+        $('.page-header pre code, .top-resource-description pre code, .modal-body pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+
+        $('[data-toggle]').click(function() {
+          var selector = $(this).data('target') + ' pre code';
+          $(selector).each(function(i, block) {
+            hljs.highlightBlock(block);
+          });
+        });
+
+        // open modal on hashes like #_action_get
+        $(window).bind('hashchange', function(e) {
+          var anchor_id = document.location.hash.substr(1); //strip #
+          var element = $('#' + anchor_id);
+
+          // do we have such element + is it a modal?  --> show it
+          if (element.length && element.hasClass('modal')) {
+            element.modal('show');
+          }
+        });
+
+        // execute hashchange on first page load
+        $(window).trigger('hashchange');
+
+        // remove url fragment on modal hide
+        $('.modal').on('hidden.bs.modal', function() {
+          try {
+            if (history && history.replaceState) {
+                history.replaceState({}, '', '#');
+            }
+          } catch(e) {}
+        });
+      });
+    </script><style>
+      .hljs {
+        background: transparent;
+      }
+      .parent {
+        color: #999;
+      }
+      .list-group-item > .badge {
+        float: none;
+        margin-right: 6px;
+      }
+      .panel-title > .methods {
+        float: right;
+      }
+      .badge {
+        border-radius: 0;
+        text-transform: uppercase;
+        width: 70px;
+        font-weight: normal;
+        color: #f3f3f6;
+        line-height: normal;
+      }
+      .badge_get {
+        background-color: #63a8e2;
+      }
+      .badge_post {
+        background-color: #6cbd7d;
+      }
+      .badge_put {
+        background-color: #22bac4;
+      }
+      .badge_delete {
+        background-color: #d26460;
+      }
+      .badge_patch {
+        background-color: #ccc444;
+      }
+      .list-group, .panel-group {
+        margin-bottom: 0;
+      }
+      .panel-group .panel+.panel-white {
+        margin-top: 0;
+      }
+      .panel-group .panel-white {
+        border-bottom: 1px solid #F5F5F5;
+        border-radius: 0;
+      }
+      .panel-white:last-child {
+        border-bottom-color: white;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+      .panel-white .panel-heading {
+        background: white;
+      }
+      .tab-pane ul {
+        padding-left: 2em;
+      }
+      .tab-pane h1 {
+        font-size: 1.3em;
+      }
+      .tab-pane h2 {
+        font-size: 1.2em;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #ddd;
+      }
+      .tab-pane h3 {
+        font-size: 1.1em;
+      }
+      .tab-content {
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+      }
+      #sidebar {
+        margin-top: 30px;
+        padding-right: 5px;
+        overflow: auto;
+        height: 90%;
+      }
+      .top-resource-description {
+        border-bottom: 1px solid #ddd;
+        background: #fcfcfc;
+        padding: 15px 15px 0 15px;
+        margin: -15px -15px 10px -15px;
+      }
+      .resource-description {
+        border-bottom: 1px solid #fcfcfc;
+        background: #fcfcfc;
+        padding: 15px 15px 0 15px;
+        margin: -15px -15px 10px -15px;
+      }
+      .resource-description p:last-child {
+        margin: 0;
+      }
+      .list-group .badge {
+        float: left;
+      }
+      .method_description {
+        margin-left: 85px;
+      }
+      .method_description p:last-child {
+        margin: 0;
+      }
+      .list-group-item {
+        cursor: pointer;
+      }
+      .list-group-item:hover {
+        background-color: #f5f5f5;
+      }
+      pre code {
+        overflow: auto;
+        word-wrap: normal;
+        white-space: pre;
+      }
+      .items {
+        background: #f5f5f5;
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 9.5px;
+        margin: 0 0 10px;
+        font-size: 13px;
+        line-height: 1.42857143;
+      }
+      .examples {
+        margin-left: 0.5em;
+      }
+      .resource-modal li > ul {
+        margin-bottom: 1em;
+      }
+    </style></head><body data-spy="scroll" data-target="#sidebar"><div class="container"><div class="row"><div class="col-md-9" role="main"><div class="page-header"><h1>Vietlott API API documentation <small>version v1</small></h1><p>http://localhost:8000/api/{version}</p><ul><li><strong>version</strong>: <em>required (v1)</em></li></ul></div><div class="panel panel-default"><div class="panel-heading"><h3 id="vietlotts" class="panel-title">/vietlotts</h3></div><div class="panel-body"><div class="panel-group"><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_vietlotts"><span class="parent"></span>/vietlotts</a> <span class="methods"><a href="#vietlotts_get"><span class="badge badge_get">get</span></a> <a href="#vietlotts_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_vietlotts" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#vietlotts_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Retrieve lasted vietlott</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#vietlotts_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Create new vietlott record</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="vietlotts_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent"></span>/vietlotts</h4></div><div class="modal-body"><div class="alert alert-info"><p>Retrieve lasted vietlott</p></div><ul class="nav nav-tabs"><li class="active"><a href="#vietlotts_get_request" data-toggle="tab">Request</a></li><li><a href="#vietlotts_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="vietlotts_get_request"><h3>Query Parameters</h3><ul><li><strong>day</strong>: <em>(Date - default: current day)</em><p>Day you want to get vietlott result (format</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>29-09-2017</code></pre></div></li></ul></div><div class="tab-pane" id="vietlotts_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Media type</strong>: type</p><p><strong>Type</strong>:</p><pre><code>{
+  "$schema": "http://json-schema.org/draft-04/schema#", 
+  "properties": {
+    "error_code": {
+      "description": "An explanation about the purpose of this instance.", 
+      "title": "The error_code schema", 
+      "type": "integer"
+    }, 
+    "message": {
+      "description": "An explanation about the purpose of this instance.", 
+      "title": "The message schema", 
+      "type": "string"
+    }, 
+    "results": {
+      "properties": {
+        "description": "This accepts anything, as long as it&#39;s valid JSON.", 
+        "title": "Empty Object"
+      }, 
+      "type": "object"
+    }, 
+    "status": {
+      "description": "An explanation about the purpose of this instance.", 
+      "title": "The status schema", 
+      "type": "boolean"
+    }
+  }, 
+  "required": [
+    "status"
+  ], 
+  "type": "object"
+}</code></pre><p><strong>Media type</strong>: example</p><p><strong>Type</strong>:</p><pre><code>{
+    "status": true,
+    "message": "",
+    "error_code": null,
+    "results": {
+        "_id": "59ce1f2dd4262b89240bcd6f",
+        "jackpot": {
+            "_id": "59ce1f2dd4262b89240bcd6e",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:41.002Z",
+            "created_at": "2017-09-29T10:23:41.002Z",
+            "prize_value": "112.128.144.500",
+            "quantum": 1,
+            "reward_type": 0
+        },
+        "third_prize": {
+            "_id": "59ce1f2dd4262b89240bcd6d",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:41.002Z",
+            "created_at": "2017-09-29T10:23:41.002Z",
+            "prize_value": "30.000",
+            "quantum": 69922,
+            "reward_type": 3
+        },
+        "second_prize": {
+            "_id": "59ce1f2dd4262b89240bcd6c",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:41.001Z",
+            "created_at": "2017-09-29T10:23:41.001Z",
+            "prize_value": "300.000",
+            "quantum": 3964,
+            "reward_type": 2
+        },
+        "first_prize": {
+            "_id": "59ce1f2cd4262b89240bcd6b",
+            "__v": 0,
+            "updated_at": "2017-09-29T10:23:40.996Z",
+            "created_at": "2017-09-29T10:23:40.996Z",
+            "prize_value": "10.000.000",
+            "quantum": 85,
+            "reward_type": 1
+        },
+        "__v": 0,
+        "updated_at": "2017-09-29T10:23:41.065Z",
+        "created_at": "2017-09-29T10:23:41.065Z",
+        "bonus_day": "2017-09-01T09:15:50.000Z",
+        "reward_id": "#00186",
+        "numbers": []
+    },
+    "server_time": "2017-10-02T04:51:31.284Z"
+}</code></pre><h2>HTTP status code <a href="http://httpstatus.es/404" target="_blank">404</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>:</p><pre><code>{
+  "$schema": "http://json-schema.org/draft-04/schema#", 
+  "properties": {
+    "error_code": {
+      "description": "An explanation about the purpose of this instance.", 
+      "title": "The error_code schema", 
+      "type": "integer"
+    }, 
+    "message": {
+      "description": "An explanation about the purpose of this instance.", 
+      "title": "The message schema", 
+      "type": "string"
+    }, 
+    "results": {
+      "properties": {
+        "description": "This accepts anything, as long as it&#39;s valid JSON.", 
+        "title": "Empty Object"
+      }, 
+      "type": "object"
+    }, 
+    "status": {
+      "description": "An explanation about the purpose of this instance.", 
+      "title": "The status schema", 
+      "type": "boolean"
+    }
+  }, 
+  "required": [
+    "status"
+  ], 
+  "type": "object"
+}</code></pre></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="vietlotts_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent"></span>/vietlotts</h4></div><div class="modal-body"><div class="alert alert-info"><p>Create new vietlott record</p></div><ul class="nav nav-tabs"><li class="active"><a href="#vietlotts_post_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="vietlotts_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><strong>Properties</strong><ul><li><strong>first_prize</strong>: <em>required (Object)</em><p>first prize reward</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "reward_type": 1,
+    "quantum": 20,
+    "prize_value": "10.000.000"
+}
+</code></pre></div></li><li><strong>second_prize</strong>: <em>required (Object)</em><p>second prize reward</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "reward_type": 2,
+    "quantum": 20,
+    "prize_value": "10.000.000"
+}
+</code></pre></div></li></ul></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_vietlotts__vietlott_id_"><span class="parent">/vietlotts</span>/{vietlott_id}</a> <span class="methods"><a href="#vietlotts__vietlott_id__put"><span class="badge badge_put">put</span></a></span></h4></div><div id="panel_vietlotts__vietlott_id_" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#vietlotts__vietlott_id__put'" class="list-group-item"><span class="badge badge_put">put</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="vietlotts__vietlott_id__put"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_put">put</span> <span class="parent">/vietlotts</span>/{vietlott_id}</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li class="active"><a href="#vietlotts__vietlott_id__put_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="vietlotts__vietlott_id__put_request"><h3>URI Parameters</h3><ul><li><strong>vietlott_id</strong>: <em>required (string)</em></li></ul></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_vietlotts_test"><span class="parent">/vietlotts</span>/test</a> <span class="methods"><a href="#vietlotts_test_get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_vietlotts_test" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#vietlotts_test_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="vietlotts_test_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/vietlotts</span>/test</h4></div><div class="modal-body"><ul class="nav nav-tabs"></ul><div class="tab-content"></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_vietlotts_history"><span class="parent">/vietlotts</span>/history</a> <span class="methods"><a href="#vietlotts_history_get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_vietlotts_history" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#vietlotts_history_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="vietlotts_history_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/vietlotts</span>/history</h4></div><div class="modal-body"><ul class="nav nav-tabs"></ul><div class="tab-content"></div></div></div></div></div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h3 id="rewards" class="panel-title">/rewards</h3></div><div class="panel-body"><div class="panel-group"><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_rewards"><span class="parent"></span>/rewards</a> <span class="methods"><a href="#rewards_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_rewards" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#rewards_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="rewards_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent"></span>/rewards</h4></div><div class="modal-body"><ul class="nav nav-tabs"></ul><div class="tab-content"></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_rewards__reward_id_"><span class="parent">/rewards</span>/{reward_id}</a> <span class="methods"><a href="#rewards__reward_id__get"><span class="badge badge_get">get</span></a> <a href="#rewards__reward_id__put"><span class="badge badge_put">put</span></a></span></h4></div><div id="panel_rewards__reward_id_" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#rewards__reward_id__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"></div><div class="clearfix"></div></div><div onclick="window.location.href = '#rewards__reward_id__put'" class="list-group-item"><span class="badge badge_put">put</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="rewards__reward_id__get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/rewards</span>/{reward_id}</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li class="active"><a href="#rewards__reward_id__get_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="rewards__reward_id__get_request"><h3>URI Parameters</h3><ul><li><strong>reward_id</strong>: <em>required (string)</em></li></ul></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="rewards__reward_id__put"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_put">put</span> <span class="parent">/rewards</span>/{reward_id}</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li class="active"><a href="#rewards__reward_id__put_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="rewards__reward_id__put_request"><h3>URI Parameters</h3><ul><li><strong>reward_id</strong>: <em>required (string)</em></li></ul></div></div></div></div></div></div></div></div></div></div></div><div class="col-md-3"><div id="sidebar" class="hidden-print affix" role="complementary"><ul class="nav nav-pills nav-stacked"><li><a href="#vietlotts">/vietlotts</a></li><li><a href="#rewards">/rewards</a></li></ul></div></div></div></div></body></html>

@@ -1,0 +1,137 @@
+#%RAML 1.0
+---
+title: Vietlott API
+baseUri: http://localhost:8000/api/{version}
+version: v1
+
+/vietlotts:
+    get:
+        queryParameters:
+            day:
+                displayName: date
+                type: Date
+                description: Day you want to get vietlott result (format: DD-MM-YYYY)
+                example: 29-09-2017
+                required: false
+                default: current day
+        description: Retrieve lasted vietlott
+        responses:
+            200:
+                body:
+                    application/json:
+                    type: !include Schema/response_success.schema
+                    example: !include Schema/vietlott_by_day.sample
+            404:
+                body:
+                    application/json:
+                        type: !include Schema/response_fail.schema
+    post:
+        description: Create new vietlott record
+        body:
+            application/json:        
+                properties:
+                    first_prize:
+                        displayName: First prize
+                        type: Object
+                        description: first prize reward
+                        required: true
+                        example: |
+                            {
+                                "reward_type": 1,
+                                "quantum": 20,
+                                "prize_value": "10.000.000"
+                            }
+                    second_prize:
+                        displayName: Second prize
+                        type: Object
+                        description: second prize reward
+                        required: true
+                        example: |
+                            {
+                                "reward_type": 2,
+                                "quantum": 20,
+                                "prize_value": "10.000.000"
+                            }
+
+    /{vietlott_id}:
+        put:
+    /test:
+        get:
+    /history:
+        get:
+    
+/rewards:
+    post:
+    /{reward_id}:
+        get:
+        put:
+
+# /users:
+#     /authors:
+#         /{authorName}:
+#     /books:
+#         get:
+#             queryParameters:
+#             author:
+#             publicationYear:
+#             rating:
+#             isbn:
+#         post:
+#         put:
+#         /{bookTitle}:
+#             get:
+#                 queryParameters:
+#                     author:
+#                         displayName: Author
+#                         type: string
+#                         description: An author's full name
+#                         example: Mary Roach
+#                         required: false
+#                     publicationYear:
+#                         displayName: Pub Year
+#                         type: number
+#                         description: The year released for the first time in the US
+#                         example: 1984
+#                         required: false
+#                     rating:
+#                         displayName: Rating
+#                         type: number
+#                         description: Average rating (1-5) submitted by users
+#                         example: 3.14
+#                         required: false
+#                     isbn:
+#                         displayName: ISBN
+#                         type: string
+#                         minLength: 10
+#                         example: 0321736079?
+#                 description: Retrieve a specific book title
+#                 responses:
+#                     200:
+#                         body:
+#                             application/json:
+#                             example: |
+#                                 {
+#                                     "data": {
+#                                         "id": "SbBGk",
+#                                         "title": "Stiff: The Curious Lives of Human Cadavers",
+#                                         "description": null,
+#                                         "datetime": 1341533193,
+#                                         "genre": "science",
+#                                         "author": "Mary Roach",
+#                                         "link": "http://e-bookmobile.com/books/Stiff",
+#                                     },
+#                                     "success": true,
+#                                     "status": 200
+#                                 }
+#             put:
+#                 queryParameters:
+#                     access_token:
+#                         displayName: Access Token
+#                         type: string
+#                         description: Token giving you permission to make call
+#                         required: true
+#             delete:
+#             /author:
+#                 get:
+#             /publisher:
+#                 get:
